@@ -1,0 +1,23 @@
+.box{
+    position: relative;
+    top: -1px;
+    width: 100%;
+    height: 300px;
+    background-image: url("../../../../public/images/titleImg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.explainBox{
+    display: flex;
+    flex-direction: column;
+    margin:0 24px 24px 24px;
+    padding-left: 18px;
+    border-left: 3px solid #ffffff;
+    font-size: 22px;
+    font-weight: bold;
+    color: #ffffff;
+    gap: 24px;
+}
+

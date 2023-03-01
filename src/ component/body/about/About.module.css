@@ -1,0 +1,60 @@
+.box{
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+}
+
+.title{
+    margin-bottom: 24px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap;
+}
+
+.leftCont{
+    width: 200px;
+    /*height: 200px;*/
+    margin-right: 32px;
+}
+
+.leftCont > img{
+    width: 200px;
+    /*height: 200px;*/
+}
+
+.rightCont{
+    display: flex;
+    flex-flow: wrap;
+}
+
+.rightCont > div{
+    width: 33%;
+}
+
+.detailBox{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.detailBox > img{
+    width: 30px;
+    height: 30px;
+}
+
+.detailFontBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 16px;
+    gap: 12px;
+}
+
+.detailFontBox > span{
+    font-weight: bold;
+}
