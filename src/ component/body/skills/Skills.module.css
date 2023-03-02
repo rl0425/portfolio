@@ -1,0 +1,39 @@
+.box{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.box > div{
+    display: flex;
+    flex-direction: column;
+}
+
+.imgBox{
+    display: flex;
+    align-items: center;
+    height: 90px;
+    padding: 0 24px 0 24px;
+    background: #ffffff;
+    box-shadow: 2px 4px 4px 0px rgba(0,0,0,25%);
+    gap: 20px;
+}
+
+.st .imgBox{
+    width: fit-content;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.nd .imgBox{
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+
+.imgBox > img{
+    width: 60px;
+}
+
+.nd{
+    align-items: flex-end;
+}

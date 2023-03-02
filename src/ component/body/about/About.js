@@ -3,7 +3,7 @@ function About(){
     return (
         <div className={classes.box}>
             <div className={classes.title}>
-                <span>About Me</span>
+                <span>About Me & Skills</span>
             </div>
             <div className={classes.content}>
                 <div className={classes.leftCont}>
