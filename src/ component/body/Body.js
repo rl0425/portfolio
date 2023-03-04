@@ -4,10 +4,11 @@ import Projects from "./projects/Projects";
 import Career from "./career/Career";
 import Sites from "./sites/Sites";
 import Title from "./title/Title";
+import classes from "./Body.module.css"
 
 function Body(){
     return (
-        <div style={{position:"relative"}}>
+        <div className={classes.box} style={{position:"relative", marginBottom:"80px"}}>
             <Title />
             <About />
             <Skills />

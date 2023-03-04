@@ -1,68 +1,59 @@
 .box{
     display: flex;
     flex-direction: column;
-    padding: 24px;
-    margin-bottom: 36px;
+    padding: 80px 15% 60px 15%;
+    background: #000000;
+    color: #ffffff;
 }
 
 .title{
-    margin-bottom: 44px;
+    display: flex;
+    flex-direction: column;
     font-size: 36px;
     font-weight: bold;
+    gap: 40px;
 }
 
 .title > span{
-    border-bottom: 7px solid #0098fe;
 }
 
 .content{
     display: flex;
-    justify-content: space-between;
-    flex-flow: wrap;
 }
 
 .leftCont{
-    width: 200px;
-    /*height: 200px;*/
     margin-right: 32px;
 }
 
 .leftCont > img{
-    width: 200px;
-    height: 200px;
+    width: 240px;
 }
+
 
 .rightCont{
     display: flex;
     flex-flow: wrap;
-    width: calc(100% - 232px);
 }
 
-.rightCont > div{
-    width: 33%;
-    padding-left: 64px;
-    box-sizing: border-box;
+.description{
+    margin-bottom: 16px;
+    color: #d3cbcb;
+    font-size: 19px;
 }
 
-.detailBox{
+.kindBox{
     display: flex;
-    align-items: center;
-    gap: 12px;
+    font-size: 16px;
 }
 
-.detailBox > img{
-    width: 30px;
-    height: 30px;
-}
-
-.detailFontBox{
+.kindBox > div{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    font-size: 16px;
-    gap: 12px;
+    border-right: 2px solid #ffffff;
+    padding-right: 80px;
+    gap: 16px;
 }
 
-.detailFontBox > span{
-    font-weight: bold;
+.kindBox > div > label{
+    color: white;
 }

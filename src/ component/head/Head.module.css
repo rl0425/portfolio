@@ -2,8 +2,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 24px 24px 88px 24px;
-    color: #222222;
+    margin: 0 25% 0 25%;
+    padding: 24px 0 70px 0;
+    color: #ffffff;
 }
 
 .leftBox{

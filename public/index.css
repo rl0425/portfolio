@@ -1,6 +1,7 @@
 body{
-    margin: 0 15% 0 15%;
-    background: #F9F9F9;
+    margin: 0;
+    /*margin: 0 15% 0 15%;*/
+    background: #323131;
 }
 
 *{

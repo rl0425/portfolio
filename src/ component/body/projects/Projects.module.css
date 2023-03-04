@@ -1,0 +1,102 @@
+.box{
+    display: flex;
+    flex-direction: column;
+    color: #ffffff;
+    padding-top: 60px;
+    background: #131313;
+}
+
+.head{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 44px;
+}
+
+.body img{
+    width: 100%;
+}
+
+.title{
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.detail{
+    color: rgba(204, 204, 204, 0.66);
+    font-weight: bold;
+}
+
+.singleCard, .multiCard{
+    box-shadow: 2px 4px 6px 0px rgb(0 0 0 / 25%);
+    cursor: pointer;
+}
+
+.singleCard{
+    margin-bottom: 24px;
+}
+
+.ganttCard{
+    position: relative;
+    width: 100%;
+    height: 321px;
+    opacity: 0.8;
+    background-image: url("../../../../public/images/projects/ganttMain.gif");
+    background-repeat: no-repeat;
+    background-size: 100%
+}
+
+.cardBackground{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    font-size: 24px;
+    font-weight: bold;
+    top: 200px;
+    width: 100%;
+    height: 120px;
+    background: rgba( 5, 5, 5, 0.8 );
+    /*box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );*/
+    backdrop-filter: blur( 8px );
+    -webkit-backdrop-filter: blur( 8px );
+    border: 1px solid rgba(0, 0, 0, 0.18);
+}
+
+.cardBackground > span{
+    color: #ffffff;
+    padding-left: 36px;
+}
+
+.fotcard{
+    position: relative;
+    width: 50%;
+    height: 600px;
+    max-height: 600px;
+    opacity: 0.8;
+    background-image: url("../../../../public/images/projects/fotscore.gif");
+    background-repeat: no-repeat;
+    background-size: 65%
+}
+
+.fotcardBackground{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    font-size: 18px;
+    font-weight: bold;
+    top: 446px;
+    width: 266px;
+    height: 120px;
+    opacity: 1;
+    background: rgba( 5, 5, 5, 0.8 );
+    /*box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );*/
+    backdrop-filter: blur( 8px );
+    -webkit-backdrop-filter: blur( 8px );
+    border: 1px solid rgba(0, 0, 0, 0.18);
+}
+
+.fotcardBackground > span{
+    color: #ffffff;
+    padding-left: 16px;
+}
+

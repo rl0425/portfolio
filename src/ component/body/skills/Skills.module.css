@@ -1,39 +1,32 @@
 .box{
     display: flex;
     flex-direction: column;
-    gap: 12px;
+    padding: 0 15% 72px 15%;
+    gap: 40px;
+    background: #000000;
+    color: #ffffff;
 }
 
-.box > div{
+.smallBox{
     display: flex;
     flex-direction: column;
+    gap: 8px;
 }
 
-.imgBox{
-    display: flex;
-    align-items: center;
-    height: 90px;
-    padding: 0 24px 0 24px;
-    background: #ffffff;
-    box-shadow: 2px 4px 4px 0px rgba(0,0,0,25%);
-    gap: 20px;
+.frontSpan,
+.versionSpan{
+    color: #c0bebe;
 }
 
-.st .imgBox{
+
+.frontImg img{
     width: fit-content;
-    border-top-right-radius: 40px;
-    border-bottom-right-radius: 40px;
+    max-width: 80%;
+    min-width: 1000px;
 }
 
-.nd .imgBox{
-    border-top-left-radius: 40px;
-    border-bottom-left-radius: 40px;
-}
-
-.imgBox > img{
-    width: 60px;
-}
-
-.nd{
-    align-items: flex-end;
+.versionImg img{
+    width: fit-content;
+    max-width: 60%;
+    min-width: 800px;
 }
