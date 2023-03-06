@@ -10,18 +10,34 @@
 .smallBox{
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    opacity: 1;
+    transition: all 0.3s linear;
+    gap: 12px;
 }
+
+.smallUnBox{
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    transition: all 0.3s linear;
+    gap: 12px;
+}
+
 
 .frontSpan,
 .versionSpan{
     color: #c0bebe;
+
+}
+
+.frontImg{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
 }
 
 .frontImg img{
-    width: fit-content;
-    max-width: 80%;
-    min-width: 1000px;
 }
 
 .versionImg img{

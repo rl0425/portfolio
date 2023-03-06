@@ -3,14 +3,14 @@ function Head(){
     return (
         <div className={classes.box}>
             <div className={classes.leftBox}>
-                <span>PGC'S Portfolio</span>
+                <span>PGC's Portfolio</span>
             </div>
             <div className={classes.rightBox}>
-                <div><span>About</span></div>
-                <div><span>Skills</span></div>
-                <div><span>Projects</span></div>
+                <div><span>Home</span></div>
+                <div><span>Skill</span></div>
+                <div><span>Project</span></div>
                 <div><span>Career</span></div>
-                <div><span>Sites</span></div>
+                <div><span>Site</span></div>
             </div>
         </div>
     )

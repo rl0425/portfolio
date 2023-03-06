@@ -1,0 +1,71 @@
+.box{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: #ffffff;
+    background: #1a1a1a;
+}
+
+.head{
+    font-size: 46px;
+    font-weight: bold;
+}
+
+.head{
+    margin-bottom: 36px;
+}
+
+.body{
+    display: flex;
+}
+
+.left{
+    padding-right: 24px;
+}
+
+.left > img{
+    width: 260px;
+    opacity: 0.9;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    padding-left: 32px;
+    border-left: 2px solid #ffffff;
+    gap: 60px;
+}
+
+.spanBox{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+
+.spanBox > span{
+    font-size: 24px;
+}
+
+.career{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.careerImg{
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+    gap: 16px;
+}
+
+.careerImg > img{
+    width: 40px;
+}
+
+.career > li{
+    color: #dadada;
+}
+
+.spanTitle{
+    font-weight: bold;
+}
