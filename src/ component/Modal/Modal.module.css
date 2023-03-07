@@ -59,13 +59,13 @@
 .body{
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 52px;
 }
 
 .category{
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 40px;
 }
 
 .categoryTitle{
@@ -73,14 +73,17 @@
     align-content: center;
     gap: 12px;
     font-size: 32px;
+    font-weight: bold;
 }
 
 .categoryTitle > img{
     width: 40px;
 }
 
-.category > label{
-    font-size: 18px;
+.categoryData{
+    padding-left: 52px;
+    font-size: 16px;
+    color: #e3e3e3;
 }
 
 .body{
@@ -103,3 +106,61 @@
     border-radius: 10px;
     /*box-shadow: inset 0px 0px 5px white;*/
 }
+
+.ganttUl > li,
+.evaluationUi > li{
+    margin-bottom: 12px;
+}
+
+.techBox{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.hardSpan{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.hardSpan > span{
+    font-size: 24px;
+    font-weight: bold;
+    /*padding-left: 24px;*/
+}
+
+.ganttImgSet{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.ganttImgSet > img{
+    width: 49%;
+    border-radius: 6px;
+}
+
+.evaluationSet{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 64px;
+    padding: 32px 0 32px 0;
+}
+
+.evaluationSet > img{
+    width: 37%;
+    border-radius: 6px;
+}
+
+.middleImgSet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin:32px 0 32px 0;
+    gap: 16px;
+}
+
