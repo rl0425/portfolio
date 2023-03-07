@@ -31,7 +31,7 @@ function Modal(){
     useEffect(() =>{
         if(type === "gantt"){
             setData({
-                url: "https://work.clovine.com",
+                url: "https://work.clovine.com > workspace > project > task > gantt chart",
                 date: (
                     <span>2021.12.01 - 2022.03.01</span>
                 ),
@@ -135,7 +135,7 @@ function Modal(){
         }
         if(type === "evaluation"){
             setData({
-                url: "https://work.clovine.com",
+                url: "https://work.clovine.com > workspace > project > setting > evaluation",
                 date: (
                     <span>2022.06.13 - 2022.07.12</span>
                 ),
@@ -223,17 +223,96 @@ function Modal(){
         }
         if(type === "summary"){
             setData({
-                url: "https://work.clovine.com",
+                url: "https://work.clovine.com > workspace > project > summary",
+                date: (
+                    <span>2022.04.21 - 2022.06.10</span>
+                ),
                 name: "프로젝트 개요",
-                summary: "샬라샬라",
-                process: "샬라샬라",
-                complete: "샬라샬라"
+                summary: (
+                    <div>
+                        <span>
+                            해당 프로젝트는 이전 회사인 HeavenTree에서 진행한 프로젝트입니다. <p/>
+                            회사의 메인 기능인 프로젝트 관리에 있어서, 프로젝트에 대한 기획, 목표 등 초기 설정을 할 수 있는 페이지가 존재하지 않는 점이 문제였습니다. <p/>
+                            경영진들은 이러한 기능이 프로젝트 관리 툴로서 필수적이라고 판단하였고, 따라서 저는 해당 기능의 프로젝트 매니저로 지정되었습니다. <p/>
+                            이와 함께, 프로젝트 내 사용자들의 활동 로그를 확인할 수 있는 페이지가 없어 이 기능 또한 동시에 구현하게 되었습니다. <p/>
+                            이 프로젝트의 주요 목표는 프로젝트의 규칙, 기획, 목표 등 초기 설정을 입력할 수 있는 페이지와 프로젝트 활동 로그를 사용자들에게 제공하는 것입니다. <p/>
+                        </span>
+                    </div>
+                ),
+                process: (
+                    <div>
+                        <span>
+                            먼저, 프로젝트 개요에 필요한 내용을 추려보았습니다. 프로젝트 내의 다른 요소들(마일스톤, 링크)들과 연동했을 경우의 장단점을 분석한 후 <p/>
+                            개요 탭에 총 5가지의 카테고리를 설정했습니다. 또한, 여러 개의 컨텐츠가 있을 수 있는 카테고리(목표, 마일스톤)에서는 드래그 앤 드롭 기능을 구현했습니다. <p/>
+                            활동로그도 마찬가지로, 프로그램에 등록되는 활동 로그에서 사용자들이 필요로 하는 정보만 선별하기 위해 마케팅팀과 TE팀이 협력하여 실제 사용자들의 피드백을 반영하였습니다. <p/>
+                            {/*활동로그도 마찬가지로, 현재 프로그램에 등록되는 로그에서 사용자들에게 필요한 정보만 선별했습니다. 선별 과정에서는 마케팅팀과 TE팀의 협조를 통해 <p/>*/}
+                            {/*실제 사용자들의 피드백을 통해 진행되었습니다. <p/>*/}
+
+
+                            {/*먼저, 프로젝트 개요에 필요한 내용을 추려보았습니다.*/}
+                            {/*"드래그 앤 드롭" 기능을 구현할 때, 목표 및 마일스톤에서 같은 여러 개의 컨텐츠가 존재할 경우에도 쉽게 조작할 수 있도록 구현하였습니다.<p/>*/}
+                            {/*이외에도, 프로그램에 등록되는 활동 로그에서 사용자들이 필요로 하는 정보만 선별하기 위해 마케팅팀과 TE팀이 협력하여 실제 사용자들의 피드백을 반영하였습니다. <p/>*/}
+                            {/*이를 바탕으로 프로젝트 내의 다른 요소들(마일스톤, 링크)과 연동했을 때의 장단점을 분석한 후 개요 탭에 총 5가지의 카테고리를 생성하였습니다.*/}
+
+                        </span>
+                        <div className={classes.middleImgSet}>
+                            <img style={{width:"46%"}} src={"/images/modal/summary1.png"}/>
+                            <span>디자인 기획안 1</span>
+                        </div>
+                        <span>다음와 같은 기능들을 목표로 개발하였습니다.</span>
+                        <ul className={classes.evaluationUi}>
+                            <li>프로젝트 설명 및 목표 생성/삭제, 목표의 중요도 설정 기능 </li>
+                            <li>프로젝트 마일스톤 생성 및 삭제, 마일스톤 일정 생성 및 삭제 기능</li>
+                            <li>프로젝트 규칙 및 기획 생성/삭제 기능 - 글자 입력에 따른 TextArea 크기 자동 조절 기능 포함</li>
+                            <li>프로젝트 마일스톤 및 프로젝트 목표의 드래그 앤 드롭 기능</li>
+                            <li>프로젝트 활동 로그 생성 및 프로젝트/태스크 태그 링크 연결 - 히스토리 관리 기능 </li>
+                            <li>시간대별 활동 로그 정렬 기능</li>
+                        </ul>
+                    </div>
+                ),
+                tech: (
+                    <div className={classes.techBox}>
+                        <img style={{width:"50px"}} src={"images/skills/html2.png"} />
+                        <img style={{width:"50px"}} src={"images/skills/css2.png"} />
+                        <img style={{width:"50px"}} src={"images/skills/js.png"} />
+                        <img style={{width:"120px"}} src={"images/skills/jquary.png"} />
+                        <img style={{width:"85px"}}src={"images/skills/node.png"} />
+                        <img style={{width:"110px"}} src={"images/skills/express.png"} />
+                        <img style={{width:"120px"}}src={"images/skills/mongo.png"} />
+                    </div>
+                ),
+                complete: (
+                    <div>
+                        <span style={{lineHeight:"28px"}}>
+                            해당 프로젝트는 사용자에게 입력받는 수많은 input 태그나 textarea의 이벤트 처리에 어려움을 겪었습니다. <br/>
+                            또한, 프로젝트 개요 기능과 활동 로그를 같은 페이지에 두어 반응형 웹을 개발하는 데에 시간을 쏟았습니다. <p/>
+
+                            이 회사에서 진행한 다른 프로젝트들보다 큰 어려움은 없었지만, 자잘한 CSS 영역에서의 완성도가 아쉬움이 남았습니다. <br/>
+                            저는 웹 개발에서 CSS가 가장 어려운 부분 중 하나라고 생각합니다. 고객이나 관리자가 요구하는 레이아웃과 디자인은 매번 너무 다르기 때문에 <br/>
+                            정확하고 신속한 개발을 요구합니다. 특히 개발하기 까다로운 인터페이스는 코드를 들여다봐도 시간이 많이 소요됩니다. <br/>
+                            이번 프로젝트에서 드래그 앤 드롭과 활동 로그란을 개발하면서 이러한 어려움을 더욱 느꼈습니다. 빠르고 퀄리티 높은 개발을 위해서는 <br/>
+                            다양한 인터페이스, 프로젝트 등 각각 다른 환경에서의 경험이 필요하다는 것을 깨달았습니다. <p/>
+                            또한 수 십개의 종류가 있는 로그는 중복되는 코드가 많았고, 그런 코드를 함수화하면서 <br/>
+                            재사용성과 가독성을 높이기 위해서는 처음 기획이 매우 중요하며, 제대로 기획 후 구현하는 것이 필수적이라 생각되었습니다.<p/>
+
+                            이번 프로젝트를 진행하면서 많은 경험을 쌓았습니다. 사용자 입력 처리, 반응형 웹 개발, CSS 등 다양한 분야에서의 개발 경험을 통해 더욱 성장할 수 있었습니다. <br/>
+                            또한, 협업 과정에서 다양한 분야의 팀원들과 함께 공동 작업하면서 효율적인 프로젝트 기획과 협업 기술을 향상시킬 수 있었습니다. <br/>
+                            기능개발을 하면서 어려운 부분이 많았지만, 그만큼 해결해 나가는 과정에서 뿌듯함을 느낄 수 있었습니다. <p/>
+                        </span>
+                        <div className={classes.evaluationSet}>
+                            <img style={{width: "42%"}}src={"images/projects/summary.png"}/>
+                            <img style={{width: "50%"}} src={"images/projects/summary.gif"}/>
+                        </div>
+                    </div>
+                )
             })
         }
         if(type === "enterprise"){
             setData({
-                url: "https://work.clovine.com",
                 name: "엔터프라이즈 모델",
+                date: (
+                    <span>2022.04.21 - 2022.06.10</span>
+                ),
                 summary: "샬라샬라",
                 process: "샬라샬라",
                 complete: "샬라샬라"
@@ -279,10 +358,10 @@ function Modal(){
                         <div className={classes.categoryTitle}><img src={"images/modal/tech.png"}/><span>Technology Stack(s)</span></div>
                         <div className={classes.categoryData}>{data.tech}</div>
                     </div>
-                    <div className={classes.category}>
+                    {data.url ? <div className={classes.category}>
                         <div className={classes.categoryTitle}><img src={"images/modal/neural.png"} /><span>URL</span></div>
                         <div className={classes.categoryData}>{data.url}</div>
-                    </div>
+                    </div> : ""}
                 </div>
             </div>
         </div>
