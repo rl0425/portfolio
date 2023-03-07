@@ -3,9 +3,24 @@
     top: -1px;
     width: 100%;
     height: 100%;
-    margin-bottom: 40px;
+    padding-bottom: 40px;
+    box-sizing: border-box;
     color: #ffffff;
-    background: ;
+}
+
+.rightBox{
+    position: absolute;
+    top: 0px;
+    right: 25%;
+    height: 370px;
+}
+
+.rightBox > img{
+    height: 370px;
+}
+
+.rightBox > img{
+    transform: revert;
 }
 
 .explainBox{

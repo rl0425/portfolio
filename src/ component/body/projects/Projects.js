@@ -1,8 +1,11 @@
 import classes from "./Projects.module.css"
 import {useState} from "react";
+import {useDispatch} from "react-redux";
+import modalSlice, {modalActions} from "../../../store/modalSlice";
 
 function Projects(){
     const [cardHover, setCardHover] = useState([false, false, false, false, false, false])
+    const dispatch = useDispatch()
 
     const updateItem = (index, newValue) => {
         setCardHover(prev => {
@@ -20,11 +23,19 @@ function Projects(){
     const mouseoutEval = () =>{ updateItem(2, false) }
     const mouseoverSummary = () =>{ updateItem(3, true) }
     const mouseoutSummary = () =>{ updateItem(3, false) }
-    const mouseoverEnter = () =>{ updateItem(4, true) }
-    const mouseoutEnter = () =>{ updateItem(4, false) }
-    const mouseoverNow = () =>{ updateItem(5, true) }
-    const mouseoutNow = () =>{ updateItem(5, false) }
+    const mouseoverEnter = () =>{ updateItem(4, true)}
+    const mouseoutEnter = () =>{ updateItem(4, false)}
+    const mouseoverNow = () =>{ updateItem(5, true)}
+    const mouseoutNow = () =>{ updateItem(5, false)}
 
+    const openModal = (element) => {
+
+        console.log("eleme = ", element)
+        dispatch(modalActions.changeState({
+            open: true,
+            kind: element
+        }))
+    }
 
     return (
         <div className={classes.box}>
@@ -34,7 +45,7 @@ function Projects(){
             </div>
             <div className={classes.body}>
                 <div className={classes.singleCard}>
-                    <div onMouseOver={mouseoverGantt} onMouseLeave={mouseoutGantt} className={classes.ganttCard}>
+                    <div key="gantt" onClick={() => openModal("gantt")} onMouseOver={mouseoverGantt} onMouseLeave={mouseoutGantt} className={classes.ganttCard}>
                         <img src={"/images/projects/ganttMain.gif"} />
                         <div className={!cardHover[0] ? classes.cardBackground : `${classes.cardBackground} ${classes.noCard}`}>
                             <span>간트차트</span>
