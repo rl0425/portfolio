@@ -44,6 +44,14 @@ function About(){
                                 <label style={{fontWeight:"400"}}>영남대학교 컴퓨터공학</label>
                             </div>
                         </div>
+                        <div className={classes.linkBox}>
+                            <span className={classes.linkSpan}>Link - </span>
+                            <div className={classes.link}>
+                                <img style={{width:"100px"}} src={"/images/skills/github.png"} />
+                                <img style={{width:"100px"}} src={"/images/skills/github.png"} />
+                                <img style={{width:"100px"}} src={"/images/skills/github.png"} />
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>

@@ -36,6 +36,51 @@ function Modal(){
                 complete: "샬라샬라"
             })
         }
+        if(type === "fotscore"){
+            setData({
+                // url: "https://work.clovine.com",
+                name: "FOTSCORE",
+                summary: "샬라샬라",
+                process: "샬라샬라",
+                complete: "샬라샬라"
+            })
+        }
+        if(type === "evaluation"){
+            setData({
+                url: "https://work.clovine.com",
+                name: "프로젝트 평가",
+                summary: "샬라샬라",
+                process: "샬라샬라",
+                complete: "샬라샬라"
+            })
+        }
+        if(type === "summary"){
+            setData({
+                url: "https://work.clovine.com",
+                name: "프로젝트 개요",
+                summary: "샬라샬라",
+                process: "샬라샬라",
+                complete: "샬라샬라"
+            })
+        }
+        if(type === "enterprise"){
+            setData({
+                url: "https://work.clovine.com",
+                name: "엔터프라이즈 모델",
+                summary: "샬라샬라",
+                process: "샬라샬라",
+                complete: "샬라샬라"
+            })
+        }
+        if(type === "ing"){
+            setData({
+                // url: "https://work.clovine.com",
+                name: "진행중인 프로젝트",
+                summary: "샬라샬라",
+                process: "샬라샬라",
+                complete: "샬라샬라"
+            })
+        }
     }, [])
 
     return (

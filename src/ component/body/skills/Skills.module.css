@@ -37,11 +37,8 @@
     gap: 12px;
 }
 
-.frontImg img{
-}
-
-.versionImg img{
-    width: fit-content;
-    max-width: 60%;
-    min-width: 800px;
+.versionImg{
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }

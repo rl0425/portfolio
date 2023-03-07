@@ -29,8 +29,6 @@ function Projects(){
     const mouseoutNow = () =>{ updateItem(5, false)}
 
     const openModal = (element) => {
-
-        console.log("eleme = ", element)
         dispatch(modalActions.changeState({
             open: true,
             kind: element
@@ -55,7 +53,7 @@ function Projects(){
                 </div>
                 <div className={classes.multiCard}>
                     <div className={classes.areaLeft}>
-                        <div onMouseOver={mouseoverFot} onMouseLeave={mouseoutFot} className={classes.fotcard}>
+                        <div key="fotscore" onClick={() => openModal("fotscore")} onMouseOver={mouseoverFot} onMouseLeave={mouseoutFot} className={classes.fotcard}>
                             <img src={"/images/projects/fotscore.gif"} />
                             <div className={!cardHover[1] ? classes.fotcardBackground : `${classes.fotcardBackground} ${classes.noCard}`}>
                                 <span>FOTSCORE</span>
@@ -64,14 +62,14 @@ function Projects(){
                         </div>
                     </div>
                     <div className={classes.areaRight}>
-                        <div onMouseOver={mouseoverEval} onMouseLeave={mouseoutEval} className={classes.evaluationCard}>
+                        <div key="evaluation" onClick={() => openModal("evaluation")} onMouseOver={mouseoverEval} onMouseLeave={mouseoutEval} className={classes.evaluationCard}>
                             <img src={"images/projects/evaluation.gif"}/>
                             <div className={!cardHover[2] ? classes.evaluationCardBackground : `${classes.evaluationCardBackground} ${classes.noCard}`}>
                                 <span>프로젝트 평가</span>
                                 <span style={{paddingRight:"40px", fontSize:"16px"}}>완료된 프로젝트를 <br/><label style={{color:"#0FC3FA"}}>분석</label>하고 <label style={{color:"#0FC3FA"}}>평가</label>하세요.</span>
                             </div>
                         </div>
-                        <div onMouseOver={mouseoverSummary} onMouseLeave={mouseoutSummary} className={classes.evaluationCard}>
+                        <div key="summary" onClick={() => openModal("summary")} onMouseOver={mouseoverSummary} onMouseLeave={mouseoutSummary} className={classes.evaluationCard}>
                             <img src={"images/projects/summary.gif"}/>
                             <div className={!cardHover[3] ? classes.evaluationCardBackground : `${classes.evaluationCardBackground} ${classes.noCard}`}>
                                 <span>프로젝트 개요</span>
@@ -81,13 +79,13 @@ function Projects(){
                     </div>
                 </div>
                 <div className={classes.fotCardList}>
-                    <div onMouseOver={mouseoverEnter} onMouseLeave={mouseoutEnter} className={classes.fotCard}>
+                    <div key="enterprise" onClick={() => openModal("enterprise")} onMouseOver={mouseoverEnter} onMouseLeave={mouseoutEnter} className={classes.fotCard}>
                         <img src={"images/projects/kised_gantt.png"}/>
                         <div className={!cardHover[4] ? classes.fotCardBackground : `${classes.fotCardBackground} ${classes.noCard}`}>
                             <span>엔터프라이즈 모델 구축</span>
                         </div>
                     </div>
-                    <div onMouseOver={mouseoverNow} onMouseLeave={mouseoutNow} className={classes.fotCard}>
+                    <div key="ing" onClick={() => openModal("ing")} onMouseOver={mouseoverNow} onMouseLeave={mouseoutNow} className={classes.fotCard}>
                         <img src={"images/projects/next.png"}/>
                         <div className={!cardHover[5] ? classes.fotCardBackground : `${classes.fotCardBackground} ${classes.noCard}`}>
                             <span>진행중인 프로젝트</span>
