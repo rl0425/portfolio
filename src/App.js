@@ -7,14 +7,13 @@ import {useSelector} from "react-redux";
 
 function App() {
     const open = useSelector((state) => state.modal.open)
-    console.log("open = ", open)
 
   return (
     <Fragment>
         <Head />
         <Body />
         <Foot />
-        {open ? <Modal /> : "asdasdas"}
+        {open ? <Modal /> : ""}
     </Fragment>
   );
 }
