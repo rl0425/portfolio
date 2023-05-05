@@ -4,7 +4,7 @@
     color: #ffffff;
     padding-top: 60px;
     padding-bottom: 120px;
-    background: #131313;
+    background: #000000;
 }
 
 .head{
@@ -19,7 +19,7 @@
 }
 
 .title{
-    font-size: 46px;
+    font-size: 36px;
     font-weight: bold;
 }
 
@@ -80,6 +80,18 @@
 .cardBackground > span{
     color: #ffffff;
     padding-left: 36px;
+}
+
+.cbBox{
+    display: flex;
+    align-items: center;
+    padding-left: 36px;
+    gap: 6px;
+}
+
+.cbBox > label{
+    color: rgb(15, 195, 250);
+    font-size: 14px;
 }
 
 .fotcard{
@@ -193,6 +205,7 @@
 
 .fotCardList{
     display: flex;
+    margin-bottom: 24px;
     gap: 30px;
 }
 
@@ -236,4 +249,11 @@
 .fotCardBackground.noCard{
     top: 500px;
     transition: all 0.45s ease;
+}
+
+.emptyCard{
+}
+
+.emptyCard .areaRight{
+    justify-content: flex-start;
 }

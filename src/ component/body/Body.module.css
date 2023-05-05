@@ -1,3 +1,7 @@
+.box{
+    overflow-x: hidden;
+}
+
 .box > div{
     padding-left: 20%;
     padding-right: 20%;

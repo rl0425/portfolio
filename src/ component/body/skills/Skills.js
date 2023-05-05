@@ -10,6 +10,9 @@ function Skills(){
 
     return (
         <div className={classes.box}>
+            <div className={classes.title}>
+                <div><span>TECH</span></div>
+            </div>
             <div className={ex ? classes.smallBox : classes.smallUnBox}>
                 <div className={classes.frontSpan}><span>FrontEnd & Environment</span></div>
                 <div className={classes.frontImg}>
