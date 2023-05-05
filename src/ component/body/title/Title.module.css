@@ -63,6 +63,7 @@
 .kindExplain{
     display: flex;
     flex-direction: column;
+    min-width: 108px;
     border-right: 1px solid #ffffff;
     padding-right: 60px;
     gap: 20px;

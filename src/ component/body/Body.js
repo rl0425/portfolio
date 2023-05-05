@@ -10,7 +10,7 @@ function Body(){
     return (
         <div className={classes.box} style={{position:"relative", marginBottom:"80px"}}>
             <Title />
-            <About />
+            {/*<About />*/}
             <Skills />
             <Projects />
             <Career />
