@@ -5,13 +5,12 @@ function Head(){
             <div className={classes.leftBox}>
                 <span>PGC's Portfolio</span>
             </div>
-            <div className={classes.rightBox}>
-                <div><span>Home</span></div>
-                <div><span>Skill</span></div>
-                <div><span>Project</span></div>
-                <div><span>Career</span></div>
-                <div><span>Site</span></div>
-            </div>
+            {/*<div className={classes.rightBox}>*/}
+            {/*    <div><span>Home</span></div>*/}
+            {/*    <div><span>Skill</span></div>*/}
+            {/*    <div><span>Project</span></div>*/}
+            {/*    <div><span>Career</span></div>*/}
+거            {/*</div>*/}
         </div>
     )
 }
