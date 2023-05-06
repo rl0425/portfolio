@@ -10,7 +10,7 @@ function Head(){
             {/*    <div><span>Skill</span></div>*/}
             {/*    <div><span>Project</span></div>*/}
             {/*    <div><span>Career</span></div>*/}
-거            {/*</div>*/}
+            {/*</div>*/}
         </div>
     )
 }
