@@ -146,14 +146,14 @@ function Modal(){
                             필요한 데이터는 네 개의 리그(프리미어리그, 라리가, 세리에 A, 분데스리가)의 일정, 결과, 팀에 대한 정보였고, <p/>
                             ESPN API에서 해당 정보를 가져와서 앱 개발을 시작했습니다. <p/>
                         </span>
-                        <div>
-                            <img style={{width:"50%"}} src={"/images/projects/fot2.png"} />
+                        <div className={classes.middleImgSet}>
+                            <img style={{width:"40%"}} src={"/images/projects/fot2.png"} />
                             <span>api 제공 사이트</span>
                         </div>
                         <span>
                             구현이 필요한 기능은 다음과 같았습니다.
                         </span>
-                        <ul>
+                        <ul className={classes.evaluationUi}>
                             <li>어제, 오늘, 다음 날의 경기 결과와 일정이 확인 가능한 페이지</li>
                             <li>각 경기 결과의 요약, 하이라이트, 매치 스탯을 확인 가능한 링크 연결</li>
                             <li>리그별 최신 이슈와 뉴스를 확인할 수 있는 페이지</li>
@@ -192,9 +192,6 @@ function Modal(){
                             이 프로젝트에서는 디자인, 기획, 개발까지 모두 혼자서 작업했었는데, 기능이 많지 않은 프로젝트였음에도 불구하고 생각했던 것보다 시간이 많이 걸렸습니다. <br/>
                             이러한 경험을 통해, 분야별로 업무를 나누어서 작업하는 것이 효율적이며 전문성을 높일 수 있다는 것을 깨달았습니다. <br/>
                             또한, React의 특징과 개념에 대해서 공부하고 익힐 수 있는 프로젝트였습니다. <p/>
-
-                            {/*마지막으로, 이 프로젝트를 통해 Redux와 Redux Toolkit에 대해 학습하고 적용해보았습니다. <br/>*/}
-                            {/*Redux를 사용하여 전역 상태를 관리하고, Redux Toolkit을 사용하여 Redux 코드를 더욱 간결하고 효율적으로 작성할 수 있었습니다. 이를 통해 프로젝트의 유지보수성을 높일 수 있었습니다.*/}
 
                         </span>
                         <div>
@@ -317,15 +314,6 @@ function Modal(){
                             먼저, 프로젝트 개요에 필요한 내용을 추려보았습니다. 프로젝트 내의 다른 요소들(마일스톤, 링크)들과 연동했을 경우의 장단점을 분석한 후 <p/>
                             개요 탭에 총 5가지의 카테고리를 설정했습니다. 또한, 여러 개의 컨텐츠가 있을 수 있는 카테고리(목표, 마일스톤)에서는 드래그 앤 드롭 기능을 구현했습니다. <p/>
                             활동로그도 마찬가지로, 프로그램에 등록되는 활동 로그에서 사용자들이 필요로 하는 정보만 선별하기 위해 마케팅팀과 TE팀이 협력하여 실제 사용자들의 피드백을 반영하였습니다. <p/>
-                            {/*활동로그도 마찬가지로, 현재 프로그램에 등록되는 로그에서 사용자들에게 필요한 정보만 선별했습니다. 선별 과정에서는 마케팅팀과 TE팀의 협조를 통해 <p/>*/}
-                            {/*실제 사용자들의 피드백을 통해 진행되었습니다. <p/>*/}
-
-
-                            {/*먼저, 프로젝트 개요에 필요한 내용을 추려보았습니다.*/}
-                            {/*"드래그 앤 드롭" 기능을 구현할 때, 목표 및 마일스톤에서 같은 여러 개의 컨텐츠가 존재할 경우에도 쉽게 조작할 수 있도록 구현하였습니다.<p/>*/}
-                            {/*이외에도, 프로그램에 등록되는 활동 로그에서 사용자들이 필요로 하는 정보만 선별하기 위해 마케팅팀과 TE팀이 협력하여 실제 사용자들의 피드백을 반영하였습니다. <p/>*/}
-                            {/*이를 바탕으로 프로젝트 내의 다른 요소들(마일스톤, 링크)과 연동했을 때의 장단점을 분석한 후 개요 탭에 총 5가지의 카테고리를 생성하였습니다.*/}
-
                         </span>
                         <div className={classes.middleImgSet}>
                             <img style={{width:"46%"}} src={"/images/modal/summary1.png"}/>
@@ -406,7 +394,7 @@ function Modal(){
                             <span>초창기 기획안</span>
                         </div>
                         <span>다음은 제가 개발을 맡은 페이지 및 기능들입니다.</span>
-                        <ul>
+                        <ul className={classes.ganttUl}>
                             <li>각 사업분야 항목이 리스트화된 게시판 페이지</li>
                             <li>워크스페이스의 모든 프로젝트들의 일정을 한 곳에 모은 간트차트 페이지</li>
                             <li>게시판 페이지의 사업분야별 필터와 검색 기능, 페이지네이션 기능</li>
@@ -454,25 +442,51 @@ function Modal(){
         }
         if(type === "ing"){
             setData({
-                url: "앱 출시 예정",
                 date: (
-                    <span>2023.02.01 - 2022.02.14</span>
+                    <span>2023.01.12 - ing</span>
                 ),
                 name: "진행중인 프로젝트",
-                summary: "샬라샬라",
-                process: "샬라샬라",
+                summary: (
+                    <div>
+                        <span>
+                            새로운 기술스택과 서비스를 개발하기 위해 진행중인 프로젝트들입니다. <p/>
+                            두 개 정도의 프로젝트를 팀 규모로 진행 중이며 저는 프론트엔드를 담당하고 있습니다. <p/>
+                            기존에 회사에 다닐때는 시간적 여유가 부족해서 아이디어만 생각해놓고 있었는데, 이번 기회에 <p/>
+                            새로운 기술과 팀원들과 함께 만들고 싶어했던 서비스를 개발하게 되었습니다.
+                        </span>
+                        {/*<div className={classes.middleImgSet}>*/}
+                        {/*    <img style={{width:"50%"}}  src={"/images/modal/ing1.png"}/>*/}
+                        {/*    <span>기획안</span>*/}
+                        {/*</div>*/}
+                    </div>
+                ),
+                process: (
+                    <div>
+                        <span>
+                            빠르게 바뀌어가는 프론트엔드의 기술 스택을 따라가려면 새로운 시도와 접근을 꺼리지 않아야 한다고 생각합니다. <p/>
+                            기존에 저는 기본 자바스크립트로만 개발을 꾸준히 해왔고, 갖가지의 프레임워크 대신 기초가 되는 자바스크립트를 탄탄히 해야한다고 생각했습니다. <p/>
+                            이전 회사에서 충분히 자바스크립트를 다뤘고, js의 장단점을 확실히 생각해 볼 수 있었습니다. <p/>
+                            여기서 한 발짝 더 나아가 다양한 곳에서 널리 사용되고 있는 리액트와 타입스크립트, Next.js 까지 경험하고 익히는 것을 목적으로 하기에 <p/>
+                            이런 기술들의 적용과 활용을 목표로 했습니다. <p/>
+
+                            처음 시작은 새로운 아이디어의 발견이였습니다. 충분히 앱과 웹시장은 레드오션이지만, <p/>
+                            아직까지도 사용자들의 니즈를 충족시키지 못한 분야가 있다고 생각했습니다. 백엔드와 프론트엔드 개발자, 디자이너를 모아 팀을 결성했습니다. <p/>
+                            그 후 나온 수많은 회의를 거쳤고, 두 개 정도의 아이디어를 채택 후 진행중입니다.. <p/>
+                        </span>
+                    </div>
+                ),
                 tech: (
                     <div className={classes.techBox}>
                         <img style={{width:"50px"}} src={"images/skills/html2.png"} />
                         <img style={{width:"50px"}} src={"images/skills/css2.png"} />
                         <img style={{width:"50px"}} src={"images/skills/js.png"} />
-                        <img style={{width:"120px"}} src={"images/skills/jquary.png"} />
-                        <img style={{width:"85px"}}src={"images/skills/node.png"} />
+                        <img style={{width:"120px"}} src={"images/skills/react.png"} />
+                        <img style={{width:"120px"}} src={"images/skills/redux.png"} />
+                        <img style={{width:"85px"}} src={"images/skills/node.png"} />
                         <img style={{width:"110px"}} src={"images/skills/express.png"} />
-                        <img style={{width:"120px"}}src={"images/skills/mongo.png"} />
+                        <img style={{width:"120px"}} src={"images/skills/mongo.png"} />
                     </div>
-                ),
-                complete: "샬라샬라"
+                )
             })
         }
     }, [])
@@ -498,10 +512,10 @@ function Modal(){
                         <div className={classes.categoryTitle}><img src={"images/modal/desktop.png"}/><span>Develop Process</span></div>
                         <div className={classes.categoryData}>{data.process}</div>
                     </div>
-                    <div className={classes.category}>
+                    {data.complete ? <div className={classes.category}>
                         <div className={classes.categoryTitle}><img src={"images/modal/fireworks.png"}/><span>Summary</span></div>
                         <div className={classes.categoryData}>{data.complete}</div>
-                    </div>
+                    </div> : ""}
                     <div className={classes.category}>
                         <div className={classes.categoryTitle}><img src={"images/modal/tech.png"}/><span>Technology Stack(s)</span></div>
                         <div className={classes.categoryData}>{data.tech}</div>

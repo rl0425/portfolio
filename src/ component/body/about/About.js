@@ -48,8 +48,6 @@ function About(){
                             <span className={classes.linkSpan}>Link - </span>
                             <div className={classes.link}>
                                 <img style={{width:"100px"}} src={"/images/skills/github.png"} />
-                                <img style={{width:"100px"}} src={"/images/skills/github.png"} />
-                                <img style={{width:"100px"}} src={"/images/skills/github.png"} />
                             </div>
                         </div>
                     </div>

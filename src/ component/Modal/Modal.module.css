@@ -133,7 +133,7 @@
 .ganttImgSet{
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 97%;
 }
 
 .ganttImgSet > img{
@@ -164,3 +164,8 @@
     gap: 16px;
 }
 
+.ingImgSet{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
