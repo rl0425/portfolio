@@ -172,7 +172,6 @@ function Modal(){
                         <img style={{width:"85px"}}src={"images/skills/node.png"} />
                         <img style={{width:"110px"}} src={"images/skills/express.png"} />
                         <img style={{width:"120px"}}src={"images/skills/mongo.png"} />
-                        <img style={{width:"120px"}}src={"images/skills/mongo.png"} />
                     </div>
                 ),
                 complete: (
