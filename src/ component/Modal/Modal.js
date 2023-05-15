@@ -124,7 +124,7 @@ function Modal(){
             setData({
                 url: "앱 출시 예정",
                 date: (
-                    <span>2023.02.01 - 2023.02.14</span>
+                    <span>2023.02.01 - 2023.02.16</span>
                 ),
                 name: "FOTSCORE",
                 summary: (
