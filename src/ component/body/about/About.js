@@ -32,7 +32,6 @@ function About(){
                         <div className={classes.description}>
                             <span>안녕하세요! 대구에 살고 있는 27살 박기찬입니다. <p/></span>
                             <span>영남대학교 컴퓨터공학과를 졸업 후 웹 개발 분야에서 1년 반 정도의 경력을 쌓았습니다.<p/></span>
-                            <span>UI 개발에 있어 중요한 기술인 리엑트와 코드 유지보수성의 향상을 위한 리팩터링에 관심을 쏟고 있습니다.</span>
                         </div>
                         <div className={classes.kindBox}>
                             <div>
