@@ -40,7 +40,7 @@ function Title(){
                 <div className={ex4 ? classes.kindBox : classes.nonKindBox}>
                     <div className={classes.kindExplain}>
                         <span style={{fontWeight:"bold"}}>주소지</span>
-                        <label>대구 북구 구암동</label>
+                        <label>대구 북구</label>
                     </div>
                     <div className={classes.kindExplain} style={{paddingLeft:"60px", minWidth:"167px"}}>
                         <span style={{fontWeight:"bold"}}>Email</span>

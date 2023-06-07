@@ -122,7 +122,7 @@ function Modal(){
         }
         if(type === "fotscore"){
             setData({
-                url: "앱 출시 예정",
+                url: "https://dd415g5szsg3k.cloudfront.net/",
                 date: (
                     <span>2023.02.01 - 2023.02.16</span>
                 ),
