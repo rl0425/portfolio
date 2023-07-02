@@ -21,14 +21,15 @@
 .box{
     position: absolute;
     top: 5%;
-    left: 5%;
+    left: 20%;
     right: 0;
     bottom: 0;
-    width: 90%;
+    width: 60%;
+    min-width: 700px;
     height: 90%;
     background: #1C1A1A;
-    border-radius: 36px;
-    padding: 60px;
+    border-radius: 12px;
+    padding: 60px 0 60px 60px;
     box-sizing: border-box;
     overflow: hidden;
 }
@@ -37,6 +38,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-right: 60px;
     margin-bottom: 60px;
     height: 45px;
 }
@@ -59,25 +61,26 @@
 .body{
     display: flex;
     flex-direction: column;
-    gap: 52px;
+    padding-right: 60px;
+    gap: 42px;
 }
 
 .category{
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 30px;
 }
 
 .categoryTitle{
     display: flex;
     align-content: center;
     gap: 12px;
-    font-size: 32px;
+    font-size: 20px;
     font-weight: bold;
 }
 
 .categoryTitle > img{
-    width: 40px;
+    width: 20px;
 }
 
 .categoryData{
@@ -153,6 +156,40 @@
     width: 37%;
     border-radius: 6px;
 }
+
+.ganttMiddleImgSet{
+    display: flex;
+    flex-direction: column;
+}
+
+.gmIsTop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 16px;
+    gap: 24px;
+    box-sizing: border-box;
+}
+
+.gmIsTop > div{
+    box-sizing: border-box;
+}
+
+.gmIsTop > img{
+    width: 70%;
+    box-sizing: border-box;
+}
+
+.gmIsBottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 36px;
+}
+
 
 .middleImgSet{
     display: flex;
