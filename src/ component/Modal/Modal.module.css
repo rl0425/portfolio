@@ -135,13 +135,16 @@
 
 .ganttImgSet{
     display: flex;
-    justify-content: space-between;
-    width: 97%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    /*justify-content: space-between;*/
+    /*width: 97%;*/
 }
 
 .ganttImgSet > img{
-    width: 49%;
-    border-radius: 6px;
+    width: 80%;
 }
 
 .evaluationSet{
