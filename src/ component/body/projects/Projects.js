@@ -78,18 +78,18 @@ function Projects(){
                         </div>
                     </div>
                 </div>
-                <div className={classes.singleCard}>
-                    <div key="gantt" onClick={() => openModal("gantt")} onMouseOver={mouseoverGantt} onMouseLeave={mouseoutGantt} className={classes.ganttCard}>
-                        <img src={"/images/projects/ganttMain.gif"} />
-                        <div className={!cardHover[0] ? classes.cardBackground : `${classes.cardBackground} ${classes.noCard}`}>
-                            <div className={classes.cbBox}>
-                                <span>DEATS</span>
-                                <label>(개발중)</label>
-                            </div>
-                            <span style={{paddingRight:"12px", fontSize:"16px"}}>프로젝트의 <label style={{color:"#0FC3FA"}}>일정</label>을 한 눈에 확인하세요.</span>
-                        </div>
-                    </div>
-                </div>
+                {/*<div className={classes.singleCard}>*/}
+                {/*    <div key="gantt" onClick={() => openModal("gantt")} onMouseOver={mouseoverGantt} onMouseLeave={mouseoutGantt} className={classes.ganttCard}>*/}
+                {/*        <img src={"/images/projects/ganttMain.gif"} />*/}
+                {/*        <div className={!cardHover[0] ? classes.cardBackground : `${classes.cardBackground} ${classes.noCard}`}>*/}
+                {/*            <div className={classes.cbBox}>*/}
+                {/*                <span>DEATS</span>*/}
+                {/*                <label>(개발중)</label>*/}
+                {/*            </div>*/}
+                {/*            <span style={{paddingRight:"12px", fontSize:"16px"}}>프로젝트의 <label style={{color:"#0FC3FA"}}>일정</label>을 한 눈에 확인하세요.</span>*/}
+                {/*        </div>*/}
+                {/*    </div>*/}
+                {/*</div>*/}
                 <div className={classes.fotCardList}>
                     <div key="enterprise" onClick={() => openModal("enterprise")} onMouseOver={mouseoverEnter} onMouseLeave={mouseoutEnter} className={classes.fotCard}>
                         <img src={"images/projects/kised_gantt.png"}/>
@@ -97,29 +97,29 @@ function Projects(){
                             <span>엔터프라이즈 모델 구축</span>
                         </div>
                     </div>
-                    <div key="ing" onClick={() => openModal("ing")} onMouseOver={mouseoverNow} onMouseLeave={mouseoutNow} className={classes.fotCard}>
-                        <img src={"images/projects/next.png"}/>
-                        <div className={!cardHover[5] ? classes.fotCardBackground : `${classes.fotCardBackground} ${classes.noCard}`}>
-                            <span>진행중인 프로젝트</span>
-                        </div>
-                    </div>
+                    {/*<div key="ing" onClick={() => openModal("ing")} onMouseOver={mouseoverNow} onMouseLeave={mouseoutNow} className={classes.fotCard}>*/}
+                    {/*    <img src={"images/projects/next.png"}/>*/}
+                    {/*    <div className={!cardHover[5] ? classes.fotCardBackground : `${classes.fotCardBackground} ${classes.noCard}`}>*/}
+                    {/*        <span>진행중인 프로젝트</span>*/}
+                    {/*    </div>*/}
+                    {/*</div>*/}
                 </div>
                 <div className={`${classes.multiCard} ${classes.emptyCard}`}>
                     <div className={classes.areaLeft}>
-                        <div key="fotscore" onClick={() => openModal("fotscore")} onMouseOver={mouseoverFot} onMouseLeave={mouseoutFot} className={classes.fotcard}>
-                            <img src={"/images/projects/fotscore.gif"} />
-                            <div className={!cardHover[1] ? classes.fotcardBackground : `${classes.fotcardBackground} ${classes.noCard}`}>
-                                <span>FOTSCORE</span>
-                                <span style={{paddingRight:"16px", fontSize:"16px"}}>해외축구 <label style={{color:"#0FC3FA"}}>일정</label>을 <br/> 확인하세요.</span>
+                        <div key="fotscore" onClick={() => openModal("fotscore")} onMouseOver={mouseoverFot} onMouseLeave={mouseoutFot} className={classes.qdrop}>
+                            <img src={"/images/projects/img_1.png"} />
+                            <div className={!cardHover[1] ? classes.qdropBackground : `${classes.qdropBackground} ${classes.noCard}`}>
+                                <span>Q'Drop</span>
+                                <span style={{paddingRight:"16px", fontSize:"16px"}}><label style={{color:"#0FC3FA"}}>질문</label>과 <label style={{color:"#0FC3FA"}}>답변</label>을 <br/> 등록하세요.</span>
                             </div>
                         </div>
                     </div>
                     <div className={classes.areaRight}>
-                        <div key="evaluation" onClick={() => openModal("evaluation")} onMouseOver={mouseoverEval} onMouseLeave={mouseoutEval} className={classes.evaluationCard}>
-                            <img src={"images/projects/evaluation.gif"}/>
-                            <div className={!cardHover[2] ? classes.evaluationCardBackground : `${classes.evaluationCardBackground} ${classes.noCard}`}>
-                                <span>프로젝트 평가</span>
-                                <span style={{paddingRight:"40px", fontSize:"16px"}}>완료된 프로젝트를 <br/><label style={{color:"#0FC3FA"}}>분석</label>하고 <label style={{color:"#0FC3FA"}}>평가</label>하세요.</span>
+                        <div key="evaluation" onClick={() => openModal("evaluation")} onMouseOver={mouseoverEval} onMouseLeave={mouseoutEval} className={classes.deatsCard}>
+                            <img src={"images/projects/img_2.png"}/>
+                            <div className={!cardHover[2] ? classes.deatsCardBackground : `${classes.deatsCardBackground} ${classes.noCard}`}>
+                                <span>DEATS</span>
+                                <span style={{paddingRight:"40px", fontSize:"16px"}}><label style={{color:"#0FC3FA"}}>컬러풀 카드를</label><br/>사용해볼까요?</span>
                             </div>
                         </div>
                     </div>

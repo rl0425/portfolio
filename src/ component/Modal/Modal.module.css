@@ -50,7 +50,7 @@
 
 .title{
     font-weight: bold;
-    font-size: 36px;
+    font-size: 24px;
 }
 
 .exit > img{
@@ -92,6 +92,7 @@
     color: #e3e3e3;
     overflow: scroll;
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 .body{

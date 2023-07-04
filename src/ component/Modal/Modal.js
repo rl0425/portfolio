@@ -90,9 +90,9 @@ function Modal(){
                         <img style={{width:"50px"}} src={"images/skills/css2.png"} />
                         <img style={{width:"50px"}} src={"images/skills/js.png"} />
                         <img style={{width:"120px"}} src={"images/skills/jquary.png"} />
-                        <img style={{width:"85px"}}src={"images/skills/node.png"} />
+                        <img style={{width:"85px"}} src={"images/skills/node.png"} />
                         <img style={{width:"110px"}} src={"images/skills/express.png"} />
-                        <img style={{width:"120px"}}src={"images/skills/mongo.png"} />
+                        <img style={{width:"120px"}} src={"images/skills/mongo.png"} />
                     </div>
                 ),
                 complete: (
@@ -211,6 +211,90 @@ function Modal(){
                 )
             })
         }
+
+        if(type === "qdrop"){
+            setData({
+                url: (
+                    <span><a href={"https://play.google.com/store/apps/details?id=com.gichan.footballScore"}>Play Store</a></span>
+                ),
+                date: (
+                    <span>2023.03.01 - 2023.05.11</span>
+                ),
+                name: "Q'drop",
+                summary: (
+                    <div>
+                        <span>
+                            평소 해외 축구를 즐겨보는데, 주말 새벽에는 경기를 보기 어렵기 때문에 경기 결과와 영상을 찾아보곤 했습니다. <p/>
+                            그러나 이 과정이 매번 귀찮고 번거로웠습니다. 그래서 라이트한 해외축구 팬들을 위한 앱을 만들면 좋겠다는 아이디어가 떠올랐고, <p/>
+                            그것을 리액트로 구현해보기로 결심했습니다. 해당 프로젝트는 앱으로 출시 후, 실제 사용자를 유치하는 것을 목표로 하고 있습니다. <p/>
+                        </span>
+                    </div>
+                ),
+                process: (
+                    <div>
+                        <span>
+                            해외 축구 영상과 결과를 가져오기 위해 무료 API를 찾던 중 국내에는 제가 원하는 정보를 제공하는 API가 없었습니다. <p/>
+                            그러나 해외 사이트인 ESPN 에서 요구사항에 적합하는 API를 발견했고 저작권 관련 정보를 확인한 후 개발을 시작했습니다. <p/>
+                            사용자이자 개발자로써 필요한 기능이 명확했기 때문에 빠르게 프로젝트를 시작할 수 있었습니다. <p/>
+                            React의 활용과 학습이 주된 목적이였기 때문에 React Native 를 사용해서 앱을 만들기보다는 React를 사용해 웹앱을 개발하기로 결정했습니다. <p/>
+                            필요한 데이터는 네 개의 리그 (프리미어리그, 라리가, 세리에 A, 분데스리가) 의 일정, 결과, 팀에 대한 정보였고 <p/>
+                            ESPN API 의 Document 를 조사한 후 앱 개발을 시작했습니다. <p/>
+                        </span>
+                        <div className={classes.middleImgSet}>
+                            <p/>
+                            <img style={{width:"80%"}} src={"/images/projects/fot.png"} />
+                            <img style={{width:"80%"}} src={"/images/projects/fot2.png"} />
+                            <span style={{fontSize:"12px"}}>api 제공 사이트/ 디자인 기획안</span>
+                            <p/>
+                        </div>
+                        <span>
+                            구현이 필요한 기능은 다음과 같았습니다.
+                        </span>
+                        <ul className={classes.evaluationUi}>
+                            <li>어제, 오늘, 다음 날의 경기 결과와 일정이 확인 가능한 페이지</li>
+                            <li>각 경기 결과의 요약, 하이라이트, 매치 스탯을 확인 가능한 링크 연결</li>
+                            <li>리그별 최신 이슈와 뉴스를 확인할 수 있는 페이지</li>
+                            <li>리그의 순위와 각종 정보를 확인할 수 있는 리그 테이블 페이지</li>
+                            <li>각 페이지의 자연스러운 터치 및 애니메이션 효과</li>
+                            <li>카테고리별 컨텐츠마다 네 개의 리그 정보 데이터 제공</li>
+                        </ul>
+                    </div>
+                ),
+                tech: (
+                    <div className={classes.techBox}>
+                        <img style={{width:"50px"}} src={"images/skills/js.png"} />
+                        <img style={{width:"120px"}} src={"images/skills/react.png"} />
+                        <img style={{width:"120px"}} src={"images/skills/redux.png"} />
+                        <img style={{width:"100px"}} src={"images/skills/figma.png"} />
+                    </div>
+                ),
+                complete: (
+                    <div>
+                        <span style={{lineHeight:"28px"}}>
+                            리액트로 개발한 프로젝트였습니다. 기존 사용하던 Vanilla JS는 많은 차이가 있어서 처음에는 낯선 개념들이 많았습니다. <br/>
+                            리액트에서는 기존의 DOM 조작 방식으로 요소를 선택하고 변경하는 것이 불가능해, 처음부터 작은 단위로 컴포넌트를 나누어 설계하고 이를 조합해야 합니다. 이 부분이 처음에는 익숙하지 않아 어려움을 겪었습니다. <p/>
+
+                            하지만 학습을 통해 새로운 개념들을 익히면서, HTML 과 유사한 문법인 Jsx, state 와 생명주기 메서드, 상태 관리를 위한 라이브러리 등 많은 개념들을 익힐 수 있었습니다.
+                            이 프로젝트에서는 컴포넌트를 분리하여 코드의 재사용성과 모듈화를 쉽게 구성하기 위해 노력했고, Redux 를 통해 상태 관리를 용이하게 했습니다.
+                            처음에는 리액트가 난해하게 느껴졌지만, 완성된 코드는 기존 자바스크립트만 사용해서 개발한 코드들보다 가독성이 훨씬 좋았고, 보다 쉬운 유지보수와 함께 코드의 재사용성을 향상시켰습니다. <p/>
+
+                            저는 이전에 바닐라 자바스크립트에서 전역변수를 이용해 쉽게 상태를 관리했었지만 리액트에서는 부모 컴포넌트에서 자식 컴포넌트로의 단방향 데이터 흐름만 존재했습니다.
+                            이런 점 때문에, 부모에서 자식 컴포넌트로 데이터가 필요한 경우 문제를 겪었습니다. 작은 단위의 컴포넌트에서는 콜백함수를 이용해서 이 문제를 해결할 수 있었지만,
+                            여러 곳에서 사용하는 경우 Redux를 사용해 전역 상태를 관리해야 했습니다.<p/>
+
+                            이 프로젝트에서는 디자인, 기획, 개발까지 모두 혼자서 작업했었는데, 기능이 많지 않은 프로젝트였음에도 불구하고 생각했던 것보다 시간이 많이 걸렸습니다.
+                            이러한 어려움은 분야별로 업무를 나누어서 작업하는 것이 훨씬 효율적이며 전문성을 극대화 시킬 수 있다는 점을 깨닫게 해주었습니다. <br/>
+                            또한, React의 특징과 개념에 대해서 공부하고 익힐 수 있었던 알짜베기 프로젝트였습니다. <p/>
+                        </span>
+                        <div className={classes.fotGifSet}>
+                            <img src={"images/projects/fotscore.gif"} />
+                            <img src={"images/projects/fot2.gif"} />
+                        </div>
+                    </div>
+                )
+            })
+        }
+
         if(type === "evaluation"){
             setData({
                 url: (
