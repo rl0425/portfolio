@@ -68,6 +68,7 @@
 .category{
     display: flex;
     flex-direction: column;
+    width: 100%;
     gap: 30px;
 }
 
@@ -84,9 +85,13 @@
 }
 
 .categoryData{
+    display: flex;
+    width: 100%;
     padding-left: 52px;
     font-size: 16px;
     color: #e3e3e3;
+    overflow: scroll;
+    box-sizing: border-box;
 }
 
 .body{
@@ -144,15 +149,15 @@
 }
 
 .ganttImgSet > img{
-    width: 80%;
+    width: 100%;
 }
 
 .evaluationSet{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     width: 100%;
-    gap: 64px;
-    padding: 32px 0 32px 0;
+    gap: 24px;
 }
 
 .evaluationSet > img{
@@ -181,7 +186,7 @@
 }
 
 .gmIsTop > img{
-    width: 70%;
+    width: 100%;
     box-sizing: border-box;
 }
 
@@ -204,8 +209,28 @@
     gap: 16px;
 }
 
+.middleImgSet > span{
+    font-size: 12px;
+}
+
 .ingImgSet{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+
+.fotGifSet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.fotGifSet > img{
+    width: 50%;
+}
+
+.middleImgSet > span{
+    font-size: 12pxㅌ;
 }
