@@ -51,6 +51,34 @@ function Projects(){
                         </div>
                     </div>
                 </div>
+                <div className={`${classes.multiCard} ${classes.emptyCard}`}>
+                    <div className={classes.areaLeft}>
+                        <div key="qdrop" onClick={() => openModal("qdrop")} onMouseOver={mouseoverFot} onMouseLeave={mouseoutFot} className={classes.qdrop}>
+                            <img src={"/images/projects/img_1.png"} />
+                            <div className={!cardHover[1] ? classes.qdropBackground : `${classes.qdropBackground} ${classes.noCard}`}>
+                                <span>Q'Drop</span>
+                                <span style={{paddingRight:"16px", fontSize:"16px"}}><label style={{color:"#0FC3FA"}}>질문</label>과 <label style={{color:"#0FC3FA"}}>답변</label>을 <br/> 등록하세요.</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div className={classes.areaRight}>
+                        <div key="evaluation" onClick={() => openModal("evaluation")} onMouseOver={mouseoverEval} onMouseLeave={mouseoutEval} className={classes.deatsCard}>
+                            <img src={"images/projects/img_2.png"}/>
+                            <div className={!cardHover[2] ? classes.deatsCardBackground : `${classes.deatsCardBackground} ${classes.noCard}`}>
+                                <span>DEATS <label style={{color:"#0FC3FA"}}>(개발중)</label></span>
+                                <span style={{paddingRight:"40px", fontSize:"16px"}}><label style={{color:"#0FC3FA"}}>컬러풀 카드를</label><br/>사용해볼까요?</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className={classes.fotCardList}>
+                    <div key="enterprise" onClick={() => openModal("enterprise")} onMouseOver={mouseoverEnter} onMouseLeave={mouseoutEnter} className={classes.fotCard}>
+                        <img src={"images/projects/kised_gantt.png"}/>
+                        <div className={!cardHover[4] ? classes.fotCardBackground : `${classes.fotCardBackground} ${classes.noCard}`}>
+                            <span>엔터프라이즈 모델 구축</span>
+                        </div>
+                    </div>
+                </div>
                 <div className={classes.multiCard}>
                     <div className={classes.areaLeft}>
                         <div key="fotscore" onClick={() => openModal("fotscore")} onMouseOver={mouseoverFot} onMouseLeave={mouseoutFot} className={classes.fotcard}>
@@ -90,40 +118,8 @@ function Projects(){
                 {/*        </div>*/}
                 {/*    </div>*/}
                 {/*</div>*/}
-                <div className={classes.fotCardList}>
-                    <div key="enterprise" onClick={() => openModal("enterprise")} onMouseOver={mouseoverEnter} onMouseLeave={mouseoutEnter} className={classes.fotCard}>
-                        <img src={"images/projects/kised_gantt.png"}/>
-                        <div className={!cardHover[4] ? classes.fotCardBackground : `${classes.fotCardBackground} ${classes.noCard}`}>
-                            <span>엔터프라이즈 모델 구축</span>
-                        </div>
-                    </div>
-                    {/*<div key="ing" onClick={() => openModal("ing")} onMouseOver={mouseoverNow} onMouseLeave={mouseoutNow} className={classes.fotCard}>*/}
-                    {/*    <img src={"images/projects/next.png"}/>*/}
-                    {/*    <div className={!cardHover[5] ? classes.fotCardBackground : `${classes.fotCardBackground} ${classes.noCard}`}>*/}
-                    {/*        <span>진행중인 프로젝트</span>*/}
-                    {/*    </div>*/}
-                    {/*</div>*/}
-                </div>
-                <div className={`${classes.multiCard} ${classes.emptyCard}`}>
-                    <div className={classes.areaLeft}>
-                        <div key="qdrop" onClick={() => openModal("qdrop")} onMouseOver={mouseoverFot} onMouseLeave={mouseoutFot} className={classes.qdrop}>
-                            <img src={"/images/projects/img_1.png"} />
-                            <div className={!cardHover[1] ? classes.qdropBackground : `${classes.qdropBackground} ${classes.noCard}`}>
-                                <span>Q'Drop</span>
-                                <span style={{paddingRight:"16px", fontSize:"16px"}}><label style={{color:"#0FC3FA"}}>질문</label>과 <label style={{color:"#0FC3FA"}}>답변</label>을 <br/> 등록하세요.</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div className={classes.areaRight}>
-                        <div key="evaluation" onClick={() => openModal("evaluation")} onMouseOver={mouseoverEval} onMouseLeave={mouseoutEval} className={classes.deatsCard}>
-                            <img src={"images/projects/img_2.png"}/>
-                            <div className={!cardHover[2] ? classes.deatsCardBackground : `${classes.deatsCardBackground} ${classes.noCard}`}>
-                                <span>DEATS</span>
-                                <span style={{paddingRight:"40px", fontSize:"16px"}}><label style={{color:"#0FC3FA"}}>컬러풀 카드를</label><br/>사용해볼까요?</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+
+
             </div>
         </div>
     )

@@ -223,15 +223,66 @@
 
 .fotGifSet{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 24px;
 }
 
-.fotGifSet > img{
-    width: 50%;
+.middleImgSet > span{
+    font-size: 12px;
 }
 
-.middleImgSet > span{
-    font-size: 12pxㅌ;
+
+.qdropImgSet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+    box-sizing: border-box;
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    max-width: 100%;
+    height: 100%;
+    padding-bottom: 12px;
 }
+
+.qdropImgSet > img{
+    max-width: calc(30% - 24px);
+    max-height: 370px;
+}
+
+
+.qdropLastImgSet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+    box-sizing: border-box;
+    width: 100%;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    max-width: 100%;
+    height: 100%;
+    padding-bottom: 12px;
+    overflow: hidden;
+}
+
+.qdropLastImgSet > img{
+    max-width: calc(30% - 24px);
+    /*max-height: 370px;*/
+}
+
+.qdropImgSet::-webkit-scrollbar-thumb {
+    background-color: #a8a8a8;
+    border-radius: 10px;
+    background-clip: padding-box;
+    border: 2px solid transparent;
+}
+
+.qdropImgSet::-webkit-scrollbar {
+    width: 2px;
+    height: 10px;
+}
+

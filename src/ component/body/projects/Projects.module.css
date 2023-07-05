@@ -346,3 +346,10 @@
     top: 520px;
     transition: all 0.45s ease;
 }
+
+.qdropImgSet{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 36px;
+}
