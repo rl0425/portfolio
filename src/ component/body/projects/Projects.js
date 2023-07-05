@@ -106,7 +106,7 @@ function Projects(){
                 </div>
                 <div className={`${classes.multiCard} ${classes.emptyCard}`}>
                     <div className={classes.areaLeft}>
-                        <div key="fotscore" onClick={() => openModal("fotscore")} onMouseOver={mouseoverFot} onMouseLeave={mouseoutFot} className={classes.qdrop}>
+                        <div key="qdrop" onClick={() => openModal("qdrop")} onMouseOver={mouseoverFot} onMouseLeave={mouseoutFot} className={classes.qdrop}>
                             <img src={"/images/projects/img_1.png"} />
                             <div className={!cardHover[1] ? classes.qdropBackground : `${classes.qdropBackground} ${classes.noCard}`}>
                                 <span>Q'Drop</span>
