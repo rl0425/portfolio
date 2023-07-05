@@ -62,7 +62,7 @@ function Projects(){
                         </div>
                     </div>
                     <div className={classes.areaRight}>
-                        <div key="evaluation" onClick={() => openModal("evaluation")} onMouseOver={mouseoverEval} onMouseLeave={mouseoutEval} className={classes.deatsCard}>
+                        <div key="DEATS" onClick={() => openModal("DEATS")} onMouseOver={mouseoverEval} onMouseLeave={mouseoutEval} className={classes.deatsCard}>
                             <img src={"images/projects/img_2.png"}/>
                             <div className={!cardHover[2] ? classes.deatsCardBackground : `${classes.deatsCardBackground} ${classes.noCard}`}>
                                 <span>DEATS <label style={{color:"#0FC3FA"}}>(개발중)</label></span>
