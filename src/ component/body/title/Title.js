@@ -39,15 +39,15 @@ function Title(){
                 </div>
                 <div className={ex4 ? classes.kindBox : classes.nonKindBox}>
                     <div className={classes.kindExplain}>
-                        <span style={{fontWeight:"bold"}}>주소지</span>
+                        <span style={{fontWeight:"bold"}}>️📪 주소지</span>
                         <label>대구 북구</label>
                     </div>
                     <div className={classes.kindExplain} style={{paddingLeft:"60px", minWidth:"167px"}}>
-                        <span style={{fontWeight:"bold"}}>Email</span>
+                        <span style={{fontWeight:"bold"}}>✉️ Email</span>
                         <label>qkrrlcks45@daum.net</label>
                     </div>
                     <div className={classes.kindExplain} style={{paddingLeft:"60px", minWidth:"120px", borderRight:"none"}}>
-                        <span style={{fontWeight:"bold"}}>연락처</span>
+                        <span style={{fontWeight:"bold"}}>📱 연락처</span>
                         <label>010-3099-4181</label>
                     </div>
                 </div>
