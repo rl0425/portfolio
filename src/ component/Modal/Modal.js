@@ -597,10 +597,6 @@ function Modal(){
                             {/*기존에 회사에 다닐때는 시간적 여유가 부족해서 아이디어만 생각해놓고 있었는데, 이번 기회에 <p/>*/}
                             {/*새로운 기술과 팀원들과 함께 만들고 싶어했던 서비스를 개발하게 되었습니다.*/}
                         </span>
-                        {/*<div className={classes.middleImgSet}>*/}
-                        {/*    <img style={{width:"50%"}}  src={"/images/modal/ing1.png"}/>*/}
-                        {/*    <span>기획안</span>*/}
-                        {/*</div>*/}
                     </div>
                 ),
                 process: (
