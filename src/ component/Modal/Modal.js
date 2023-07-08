@@ -503,7 +503,7 @@ function Modal(){
             setData({
                 name: "엔터프라이즈 모델",
                 date: (
-                    <span>2022.04.21 - 2022.06.10</span>
+                    <span>2022.06.16 - 2022.08.02</span>
                 ),
                 summary: (
                     <div style={{lineHeight:"28px"}}>

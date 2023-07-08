@@ -318,6 +318,7 @@
 .deatsCard > img{
     position: absolute;
     width: 100%;
+    min-width: 512px;
     min-height: 100%;
 }
 
