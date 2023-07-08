@@ -2,52 +2,25 @@ import classes from "./About.module.css"
 import {useState} from "react";
 function About(){
 
-    const [ex, setEx] = useState(false)
-    const [ex2, setEx2] = useState(false)
-    const [ex3, setEx3] = useState(false)
 
-    setTimeout(() =>{
-        setEx(true)
-    }, 200)
-
-    setTimeout(() =>{
-        setEx2(true)
-    }, 400)
-
-    setTimeout(() =>{
-        setEx3(true)
-    }, 600)
 
     return (
         <div className={classes.box}>
             {/*<div className={classes.content}>*/}
-            <div className={ex ? classes.content : classes.unContent}>
-                <div className={classes.leftCont}>
-                    {/*<img src={"/images/profile/black3.png"}/>*/}
-                    <img src={"/images/aboutImg.png"}/>
-                </div>
+            <div className={classes.content}>
                 <div className={classes.rightCont}>
-                    <div className={classes.title} style={{color:"#0FC3FA"}}>
-                        <span>About & Skills</span>
+                    <div className={classes.title} style={{color:"#0098fe"}}>
+                        <span>Introduce.</span>
                         <div className={classes.description}>
-                            <span>안녕하세요! 대구에 살고 있는 27살 박기찬입니다. <p/></span>
-                            <span>영남대학교 컴퓨터공학과를 졸업 후 웹 개발 분야에서 1년 반 정도의 경력을 쌓았습니다.<p/></span>
-                        </div>
-                        <div className={classes.kindBox}>
-                            <div>
-                                <span style={{fontWeight:"bold", color:"#ffffff"}}>생년월일</span>
-                                <label style={{fontWeight:"400"}}>1997.04.25</label>
-                            </div>
-                            <div style={{paddingLeft:"80px", borderRight:"none"}}>
-                                <span style={{fontWeight:"bold", color:"#ffffff"}}>학력</span>
-                                <label style={{fontWeight:"400"}}>영남대학교 컴퓨터공학</label>
-                            </div>
-                        </div>
-                        <div className={classes.linkBox}>
-                            <span className={classes.linkSpan}>Link - </span>
-                            <div className={classes.link}>
-                                <img style={{width:"100px"}} src={"/images/skills/github.png"} />
-                            </div>
+                            <span>
+                                1년 반 차 주니어 개발자로 스타트업에서 웹 서비스를 기획/개발/배포하였습니다. 주로 Front-end 개발을 담당했으며 필요에 따라 PM 역할을 겸하였습니다.
+                                작은 규모의 팀에서 FE 개발자로 40억 투자를 유치하고, 140곳이 넘는 고객사를 확보하는 회사로 성장할 때까지의 필요한 개발 역량에 이바지했던 경험이 있습니다.
+                            </span>
+                            <span>
+                                반복되는 일을 자동화하고 효율적으로 개선하는 일을 좋아합니다. 팀 전체 구성원들의 단순하거나 반복되는 업무 시간을 최소화하기 위해
+                                코드공통화와 기술문서를 개선하고 개발한 경험이 있습니다. 또한, 지속적인 발전은 혼자가 아닌 팀 단위의 큰 규모의 개발에서 이뤄진다고
+                                생각하기에 다양한 직무의 팀 구성원들과 적극적으로 소통하며 협업해왔습니다.
+                            </span>
                         </div>
                     </div>
                 </div>

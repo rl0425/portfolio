@@ -1,10 +1,8 @@
 .box{
     display: flex;
     flex-direction: column;
-    padding: 80px 15% 60px 15%;
-    background: #000000;
+    padding: 40px 15% 30px 15%;
     color: #ffffff;
-    transition: all 0.4s linear;
 }
 
 
@@ -12,7 +10,7 @@
 .title{
     display: flex;
     flex-direction: column;
-    font-size: 24px;
+    font-size: 18px;
     font-weight: bold;
     gap: 40px;
 }
@@ -52,9 +50,14 @@
 }
 
 .description{
+    display: flex;
+    flex-direction: column;
     margin-bottom: 16px;
-    color: #d3cbcb;
-    font-size: 19px;
+    font-size: 14px;
+    font-weight: normal;
+    color: #ffffff;
+    line-height: 20px;
+    gap: 12px;
 }
 
 .kindBox{
