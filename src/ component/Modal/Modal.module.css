@@ -87,7 +87,7 @@
 .categoryData{
     display: flex;
     width: 100%;
-    padding-left: 52px;
+    /*padding-left: 52px;*/
     font-size: 16px;
     color: #e3e3e3;
     overflow: scroll;
@@ -284,6 +284,10 @@
 .qdropImgSet::-webkit-scrollbar {
     width: 2px;
     height: 10px;
+}
+
+.categoryData li{
+    line-height: 28px;
 }
 
 

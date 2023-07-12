@@ -125,7 +125,19 @@ function Modal(){
                             </div>
                         </div>
                     </div>
-                )
+                ),
+                output: (
+                    <div>
+                        <ul>
+                            <li>혼자서 디자인을 제외한 필요한 모든 IT 서비스(프론트 및 백엔드, 기획) 개발</li>
+                            <li>기존  라이브러리를 사용하는 코드를 개선하여 기존보다 데이터 조회 속도 300% 개선, <br/>간트차트 기능 수 200% 증가 등 성능면에서 비약적인 상승</li>
+                            <li>다른 페이지에서 해당 기능을 이용할 경우를 대비해 함수 모듈화 및 리팩터링</li>
+                            <li>함수 기능 명세서 및 DB 테이블 설계서 작성</li>
+                            <li>프로젝트 내의 모든 태스크 및 마일스톤을 컨트롤할 수 있는 기능 기획/개발</li>
+                            <li>기존 간트차트 페이지 대비 웹페이지 방문자 수 300% 증가</li>
+                        </ul>
+                    </div>
+                ),
             })
         }
         if(type === "fotscore"){
@@ -210,7 +222,18 @@ function Modal(){
                             <img src={"images/projects/fot2.gif"} />
                         </div>
                     </div>
-                )
+                ),
+                output: (
+                    <div>
+                        <ul>
+                            <li>혼자서 디자인을 포함한 필요한 모든 IT 서비스(프론트 및  기획) 개발</li>
+                            <li>ESPN API의 공식 데이터를 이용한 각종 기록 데이터 테이블화</li>
+                            <li>Redux와 Redux toolkit을 이용한 데이터의 중앙집권화</li>
+                            <li>React Native를 이용한 React의 성공적인 웹 앱 이식</li>
+                            <li>SPA 구조의 자연스럽고 부드러운 UX 경험 제공</li>
+                        </ul>
+                    </div>
+                ),
             })
         }
 
@@ -323,7 +346,18 @@ function Modal(){
                             </div>
                         </div>
                     </div>
-                )
+                ),
+                output: (
+                    <div>
+                        <ul>
+                            <li>프로젝트 전체 일정, 리소스, 인원 관리 등을 통한 PM(Project Manager) 역할 성공적으로 수행</li>
+                            <li>PlayStore 앱 정상 등록</li>
+                            <li>Redux와 Redux toolkit을 이용한 데이터의 중앙집권화</li>
+                            <li>SPA 구조의 자연스럽고 부드러운 UX 경험 제공</li>
+                            <li>React Native를 이용한 React의 성공적인 웹 앱 이식</li>
+                        </ul>
+                    </div>
+                ),
             })
         }
 
@@ -415,7 +449,18 @@ function Modal(){
                             <img style={{width: "100%"}} src={"images/projects/evaluation.gif"}/>
                         </div>
                     </div>
-                )
+                ),
+                output: (
+                    <div>
+                        <ul>
+                            <li>혼자서 디자인을 제외한 필요한 모든 IT 서비스(프론트 및 백엔드, 기획) 개발</li>
+                            <li>다수의 산업군에서 카테고리별 프로젝트 산출물의 계산 및 평가를 수행할 수 있어 다양한 고객층 확보에 기여함</li>
+                            <li>프로젝트의 다양한 가치를 여러 지표를 통해 평가하는 기능을 사용자들에게 제공하여 자사 Project Portfolio Managment System의 기능성 증진</li>
+                            <li>함수 기능 명세서 및 DB 테이블 설계서 작성</li>
+                            <li>프로젝트 내의 모든 태스크 및 마일스톤을 수치화한 차트 및 그래프 서비스 기획/개발</li>
+                        </ul>
+                    </div>
+                ),
             })
         }
         if(type === "summary"){
@@ -496,7 +541,18 @@ function Modal(){
                         </div>
                         <p/>
                     </div>
-                )
+                ),
+                output: (
+                    <div>
+                        <ul>
+                            <li>프로그램에 등록되는 활동 로그에서 사용자들이 필요로 하는 정보만 선별하기 위해 마케팅, TE 팀과  협력하여 실제 사용자들의 피드백을 반영한 활동 로그란 개발</li>
+                            <li>테블릿, 모바일 환경을 고려하여 페이지 레이아웃 설계 및 반응형 페이지 개발</li>
+                            <li>혼자서 디자인을 제외한 필요한 모든 IT 서비스(프론트 및 백엔드, 기획) 개발</li>
+                            <li>수 십가지 종류의 중복되는 로그 제거 및 코드 모듈화를 통한 복잡성 감소에 기여</li>
+                            <li>함수 기능 명세서 및 DB 테이블 설계서 작성</li>
+                        </ul>
+                    </div>
+                ),
             })
         }
         if(type === "enterprise"){
@@ -578,7 +634,19 @@ function Modal(){
                             <img style={{width:"100%"}} src={"/images/projects/kised_gonzi.png"}/>
                         </div>
                     </div>
-                )
+                ),
+                output: (
+                    <div>
+                        <ul>
+                            <li>프로젝트 전체 일정, 리소스, 인원 관리 등을 통한 PM(Project Manager) 역할 성공적으로 수행</li>
+                            <li>엔터프라이즈 모델 개발 프로젝트를 기간 내에 완성도 있게 완료함으로써 창업진흥원에 소속된 수 많은 회사의 접근성 및 사용량 확보</li>
+                            <li>테블릿, 모바일 환경을 고려하여 페이지 레이아웃 설계 및 반응형 페이지 개발</li>
+                            <li>함수 기능 명세서 및 DB 테이블 설계서 작성</li>
+                            <li>클래스 이름, 파일 이름 등 여러 기법이 존재하는 파일명 및 함수명 통일 및 문서화</li>
+                            <li>창진원 소속 100여 개의 회사 직원들을 통한 자사 서비스 이용 고객 확보</li>
+                        </ul>
+                    </div>
+                ),
             })
         }
         if(type === "DEATS"){
@@ -669,6 +737,10 @@ function Modal(){
                     {data.complete ? <div className={classes.category}>
                         <div className={classes.categoryTitle}><span>Summary</span></div>
                         <div className={classes.categoryData}>{data.complete}</div>
+                    </div> : ""}
+                    {data.output ? <div className={classes.category}>
+                        <div className={classes.categoryTitle}><span>Output</span></div>
+                        <div className={classes.categoryData}>{data.output}</div>
                     </div> : ""}
                     <div className={classes.category}>
                         <div className={classes.categoryTitle}><span>Technology Stack(s)</span></div>
