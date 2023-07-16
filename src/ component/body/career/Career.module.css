@@ -1,12 +1,11 @@
 .box{
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 40px;
+    padding-bottom: 40px;
     color: #ffffff;
-    background: #1a1a1a;
 }
 
 .head{
-    font-size: 46px;
+    font-size: 18px;
     font-weight: bold;
 }
 
@@ -31,7 +30,7 @@
     flex-direction: column;
     padding-left: 32px;
     border-left: 2px solid #ffffff;
-    gap: 60px;
+    gap: 16px;
 }
 
 .spanBox{
@@ -48,14 +47,14 @@
 .career{
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 12px;
 }
 
 .careerImg{
     display: flex;
     align-items: center;
     margin-bottom: 12px;
-    gap: 16px;
+    gap: 8px;
 }
 
 .careerImg > img{

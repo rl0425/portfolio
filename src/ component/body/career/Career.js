@@ -12,14 +12,12 @@ function Career(){
                 </div>
                 <div className={classes.right}>
                     <div className={classes.spanBox}>
-                        <span className={classes.spanTitle}>회사 소개</span>
                         <div style={{display:"flex", flexDirection:"column", gap:"12px"}}>
-                            <span style={{fontSize:"18px", color:"#8c8a8a"}}>(주)헤븐트리</span>
-                            <span style={{color: "#dadada"}}> &nbsp; 프로젝트 관리 솔루션에서 포트폴리오까지 통합적인 관리를 할 수 있는 프로그램 '클로바인(Clovine)'을 개발하는 IT 솔루션 기업입니다.</span>
+                            <span style={{fontSize:"18px"}}>(주)헤븐트리</span>
+                            <span style={{color: "#dadada"}}>프로젝트 관리 솔루션에서 포트폴리오까지 통합적인 관리를 할 수 있는 프로그램 '클로바인(Clovine)'을 개발하는 IT 솔루션 기업입니다.</span>
                         </div>
                     </div>
                     <div className={classes.spanBox}>
-                        <span className={classes.spanTitle}>회사 경력</span>
                         <div>
                             <div className={classes.career}>
                                 <span style={{color:"#ababab"}} >2021년 7월 ~ 2022년 12월 : 프론트엔드 개발</span>

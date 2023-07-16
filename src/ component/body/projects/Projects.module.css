@@ -3,8 +3,6 @@
     flex-direction: column;
     color: #ffffff;
     padding-top: 60px;
-    padding-bottom: 120px;
-    background: #000000;
 }
 
 .head{
@@ -320,6 +318,7 @@
 .deatsCard > img{
     position: absolute;
     width: 100%;
+    min-width: 512px;
     min-height: 100%;
 }
 

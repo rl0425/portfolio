@@ -86,13 +86,13 @@ function Modal(){
                 ),
                 tech: (
                     <div className={classes.techBox}>
-                        <img style={{width:"50px"}} src={"images/skills/html2.png"} />
-                        <img style={{width:"50px"}} src={"images/skills/css2.png"} />
-                        <img style={{width:"50px"}} src={"images/skills/js.png"} />
-                        <img style={{width:"120px"}} src={"images/skills/jquary.png"} />
-                        <img style={{width:"85px"}} src={"images/skills/node.png"} />
-                        <img style={{width:"110px"}} src={"images/skills/express.png"} />
-                        <img style={{width:"120px"}} src={"images/skills/mongo.png"} />
+                        <img style={{width:"30px"}} src={"images/skills/html2.png"} />
+                        <img style={{width:"30px"}} src={"images/skills/css2.png"} />
+                        <img style={{width:"30px"}} src={"images/skills/js.png"} />
+                        <img style={{width:"90px"}} src={"images/skills/jquary.png"} />
+                        <img style={{width:"65px"}} src={"images/skills/node.png"} />
+                        <img style={{width:"80px"}} src={"images/skills/express.png"} />
+                        <img style={{width:"90px"}} src={"images/skills/mongo.png"} />
                     </div>
                 ),
                 complete: (
@@ -119,7 +119,6 @@ function Modal(){
                                 현업에서 처음으로 참여한 큰 프로젝트에서는 많은 실수와 오류가 있었습니다. 이를 통해 동료들과의 협업과 의사소통의 중요성을 다시 한번 깨달았으며, <br/> 개발 실력의 부족한 부분을 인지하게 되었습니다.
                                 프로젝트 완성을 위해 충분한 공수기간이 주어지지 않았지만, 열심히 노력하여 다양한 기능 구현 요구사항을 해결하였고, 결국 제 페이지와 코드가 회사의 메인 프로그램에 추가되는 결과를 얻을 수 있었습니다.
                             </label>
-                            <p/>
                             <div className={classes.ganttImgSet}>
                                 <img src={"/images/projects/move.gif"}/>
                                 <img src={"/images/projects/view.gif"}/>
@@ -140,6 +139,7 @@ function Modal(){
                 name: "FOTSCORE",
                 summary: (
                     <div>
+                        <img style={{width:"100%", marginBottom:"12px"}}src={"/images/projects/fot1-1.png"}/>
                         <span>
                             평소 해외 축구를 즐겨보는데, 주말 새벽에는 경기를 보기 어렵기 때문에 경기 결과와 영상을 찾아보곤 했습니다. <p/>
                             그러나 이 과정이 매번 귀찮고 번거로웠습니다. 그래서 라이트한 해외축구 팬들을 위한 앱을 만들면 좋겠다는 아이디어가 떠올랐고, <p/>
@@ -179,14 +179,16 @@ function Modal(){
                 ),
                 tech: (
                     <div className={classes.techBox}>
-                        <img style={{width:"50px"}} src={"images/skills/js.png"} />
-                        <img style={{width:"120px"}} src={"images/skills/react.png"} />
-                        <img style={{width:"120px"}} src={"images/skills/redux.png"} />
-                        <img style={{width:"100px"}} src={"images/skills/figma.png"} />
+                        <img style={{width:"30px"}} src={"images/skills/js.png"} />
+                        <img style={{width:"90px"}} src={"images/skills/react.png"} />
+                        <img style={{width:"90px"}} src={"images/skills/redux.png"} />
+                        <img style={{width:"70px"}} src={"images/skills/figma.png"} />
                     </div>
                 ),
                 complete: (
                     <div>
+                        <img style={{width:"100%", marginBottom:"12px"}}src={"/images/projects/img_8.png"}/>
+
                         <span style={{lineHeight:"28px"}}>
                             리액트로 개발한 프로젝트였습니다. 기존 사용하던 Vanilla JS는 많은 차이가 있어서 처음에는 낯선 개념들이 많았습니다. <br/>
                             리액트에서는 기존의 DOM 조작 방식으로 요소를 선택하고 변경하는 것이 불가능해, 처음부터 작은 단위로 컴포넌트를 나누어 설계하고 이를 조합해야 합니다. 이 부분이 처음에는 익숙하지 않아 어려움을 겪었습니다. <p/>
@@ -269,10 +271,13 @@ function Modal(){
                 ),
                 tech: (
                     <div className={classes.techBox}>
-                        <img style={{width:"50px"}} src={"images/skills/js.png"} />
-                        <img style={{width:"120px"}} src={"images/skills/react.png"} />
-                        <img style={{width:"120px"}} src={"images/skills/redux.png"} />
-                        <img style={{width:"100px"}} src={"images/skills/figma.png"} />
+                        <img style={{width:"30px"}} src={"images/skills/js.png"} />
+                        <img style={{width:"90px"}} src={"images/skills/react.png"} />
+                        <img style={{width:"90px"}} src={"images/skills/redux.png"} />
+                        <img style={{width:"70px"}} src={"images/skills/figma.png"} />
+                        <img style={{width:"70px"}} src={"images/skills/mysql.png"} />
+                        <img style={{width:"90px"}} src={"images/skills/spring.png"} />
+
                     </div>
                 ),
                 complete: (
@@ -374,13 +379,13 @@ function Modal(){
                 ),
                 tech: (
                     <div className={classes.techBox}>
-                        <img style={{width:"50px"}} src={"images/skills/html2.png"} />
-                        <img style={{width:"50px"}} src={"images/skills/css2.png"} />
-                        <img style={{width:"50px"}} src={"images/skills/js.png"} />
-                        <img style={{width:"120px"}} src={"images/skills/jquary.png"} />
-                        <img style={{width:"85px"}}src={"images/skills/node.png"} />
-                        <img style={{width:"110px"}} src={"images/skills/express.png"} />
-                        <img style={{width:"120px"}}src={"images/skills/mongo.png"} />
+                        <img style={{width:"30px"}} src={"images/skills/html2.png"} />
+                        <img style={{width:"30px"}} src={"images/skills/css2.png"} />
+                        <img style={{width:"30px"}} src={"images/skills/js.png"} />
+                        <img style={{width:"90px"}} src={"images/skills/jquary.png"} />
+                        <img style={{width:"65px"}} src={"images/skills/node.png"} />
+                        <img style={{width:"80px"}} src={"images/skills/express.png"} />
+                        <img style={{width:"90px"}} src={"images/skills/mongo.png"} />
                     </div>
                 ),
                 complete: (
@@ -457,13 +462,13 @@ function Modal(){
                 ),
                 tech: (
                     <div className={classes.techBox}>
-                        <img style={{width:"50px"}} src={"images/skills/html2.png"} />
-                        <img style={{width:"50px"}} src={"images/skills/css2.png"} />
-                        <img style={{width:"50px"}} src={"images/skills/js.png"} />
-                        <img style={{width:"120px"}} src={"images/skills/jquary.png"} />
-                        <img style={{width:"85px"}}src={"images/skills/node.png"} />
-                        <img style={{width:"110px"}} src={"images/skills/express.png"} />
-                        <img style={{width:"120px"}}src={"images/skills/mongo.png"} />
+                        <img style={{width:"30px"}} src={"images/skills/html2.png"} />
+                        <img style={{width:"30px"}} src={"images/skills/css2.png"} />
+                        <img style={{width:"30px"}} src={"images/skills/js.png"} />
+                        <img style={{width:"90px"}} src={"images/skills/jquary.png"} />
+                        <img style={{width:"65px"}} src={"images/skills/node.png"} />
+                        <img style={{width:"80px"}} src={"images/skills/express.png"} />
+                        <img style={{width:"90px"}} src={"images/skills/mongo.png"} />
                     </div>
                 ),
                 complete: (
@@ -498,7 +503,7 @@ function Modal(){
             setData({
                 name: "엔터프라이즈 모델",
                 date: (
-                    <span>2022.04.21 - 2022.06.10</span>
+                    <span>2022.06.16 - 2022.08.02</span>
                 ),
                 summary: (
                     <div style={{lineHeight:"28px"}}>
@@ -538,13 +543,13 @@ function Modal(){
                 ),
                 tech: (
                     <div className={classes.techBox}>
-                        <img style={{width:"50px"}} src={"images/skills/html2.png"} />
-                        <img style={{width:"50px"}} src={"images/skills/css2.png"} />
-                        <img style={{width:"50px"}} src={"images/skills/js.png"} />
-                        <img style={{width:"120px"}} src={"images/skills/jquary.png"} />
-                        <img style={{width:"85px"}}src={"images/skills/node.png"} />
-                        <img style={{width:"110px"}} src={"images/skills/express.png"} />
-                        <img style={{width:"120px"}}src={"images/skills/mongo.png"} />
+                        <img style={{width:"30px"}} src={"images/skills/html2.png"} />
+                        <img style={{width:"30px"}} src={"images/skills/css2.png"} />
+                        <img style={{width:"30px"}} src={"images/skills/js.png"} />
+                        <img style={{width:"90px"}} src={"images/skills/jquary.png"} />
+                        <img style={{width:"65px"}} src={"images/skills/node.png"} />
+                        <img style={{width:"80px"}} src={"images/skills/express.png"} />
+                        <img style={{width:"90px"}} src={"images/skills/mongo.png"} />
                     </div>
                 ),
                 complete: (
@@ -628,12 +633,12 @@ function Modal(){
                 ),
                 tech: (
                     <div className={classes.techBox}>
-                        <img style={{width:"50px"}} src={"images/skills/js.png"} />
-                        <img style={{width:"120px"}} src={"images/skills/react.png"} />
-                        <img style={{width:"120px"}} src={"images/skills/redux.png"} />
-                        <img style={{width:"100px"}} src={"images/skills/figma.png"} />
-                        <img style={{width:"70px"}} src={"images/skills/mysql.svg"} />
-                        <img style={{width:"120px"}} src={"images/skills/spring.png"} />
+                        <img style={{width:"30px"}} src={"images/skills/js.png"} />
+                        <img style={{width:"90px"}} src={"images/skills/react.png"} />
+                        <img style={{width:"90px"}} src={"images/skills/redux.png"} />
+                        <img style={{width:"70px"}} src={"images/skills/figma.png"} />
+                        <img style={{width:"70px"}} src={"images/skills/mariaDB.png"} />
+                        <img style={{width:"90px"}} src={"images/skills/spring.png"} />
                     </div>
                 )
             })
@@ -650,27 +655,27 @@ function Modal(){
                 </div>
                 <div className={classes.body}>
                     <div className={classes.category}>
-                        <div className={classes.categoryTitle}><img src={"images/modal/calendar.png"} /><span>Project Duration</span></div>
+                        <div className={classes.categoryTitle}><span>Project Duration</span></div>
                         <div className={classes.categoryData}>{data.date}</div>
                     </div>
                     <div className={classes.category}>
-                        <div className={classes.categoryTitle}><img src={"images/modal/placeholder1.png"}/><span>Background</span></div>
+                        <div className={classes.categoryTitle}><span>Background</span></div>
                         <div className={classes.categoryData}>{data.summary}</div>
                     </div>
                     <div className={classes.category}>
-                        <div className={classes.categoryTitle}><img src={"images/modal/desktop.png"}/><span>Develop Process</span></div>
+                        <div className={classes.categoryTitle}><span>Develop Process</span></div>
                         <div className={classes.categoryData}>{data.process}</div>
                     </div>
                     {data.complete ? <div className={classes.category}>
-                        <div className={classes.categoryTitle}><img src={"images/modal/fireworks.png"}/><span>Summary</span></div>
+                        <div className={classes.categoryTitle}><span>Summary</span></div>
                         <div className={classes.categoryData}>{data.complete}</div>
                     </div> : ""}
                     <div className={classes.category}>
-                        <div className={classes.categoryTitle}><img src={"images/modal/tech.png"}/><span>Technology Stack(s)</span></div>
+                        <div className={classes.categoryTitle}><span>Technology Stack(s)</span></div>
                         <div className={classes.categoryData}>{data.tech}</div>
                     </div>
                     {data.url ? <div className={classes.category}>
-                        <div className={classes.categoryTitle}><img src={"images/modal/neural.png"} /><span>URL</span></div>
+                        <div className={classes.categoryTitle}><span>URL</span></div>
                         <div className={classes.categoryData}>{data.url}</div>
                     </div> : ""}
                 </div>

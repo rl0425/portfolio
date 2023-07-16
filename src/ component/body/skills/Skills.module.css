@@ -3,12 +3,11 @@
     flex-direction: column;
     padding: 30px 20%;
     gap: 40px;
-    background: #000000;
     color: #ffffff;
 }
 
 .title{
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 600;
 }
 

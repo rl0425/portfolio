@@ -39,7 +39,7 @@ function Projects(){
         <div className={classes.box}>
             <div className={classes.head}>
                 <div className={classes.title}><span>PROJECT</span></div>
-                <div className={classes.detail}><span>* 카드 클릭 시 프로젝트 상세 내용으로 이동합니다.</span></div>
+                {/*<div className={classes.detail}><span>* 카드 클릭 시 프로젝트 상세 내용으로 이동합니다.</span></div>*/}
             </div>
             <div className={classes.body}>
                 <div className={classes.singleCard}>
