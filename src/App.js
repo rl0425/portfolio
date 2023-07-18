@@ -2,6 +2,7 @@ import Head from "./ component/head/Head";
 import Body from "./ component/body/Body";
 import Foot from "./ component/foot/Foot";
 import {Fragment} from "react";
+import React from 'react'
 import Modal from "./ component/Modal/Modal";
 import {useSelector} from "react-redux";
 
