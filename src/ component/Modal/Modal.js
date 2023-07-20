@@ -2,6 +2,8 @@ import classes from "./Modal.module.css"
 import {useEffect, useState} from "react";
 import {useSelector, useDispatch} from "react-redux";
 import {modalActions} from "../../store/modalSlice";
+import React from 'react'
+
 
 function Modal(){
     const dispatch = useDispatch()
