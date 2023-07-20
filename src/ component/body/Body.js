@@ -5,6 +5,8 @@ import Career from "./career/Career";
 import Sites from "./sites/Sites";
 import classes from "./Body.module.css"
 import TitleSec from "./title/TitleSec";
+import {useEffect} from "react";
+import {modalActions} from "../../store/modalSlice";
 
 function Body(){
     return (

@@ -1,11 +1,26 @@
 import classes from "./Projects.module.css"
-import {useState} from "react";
+import {useEffect, useState} from "react";
 import {useDispatch} from "react-redux";
 import modalSlice, {modalActions} from "../../../store/modalSlice";
 
 function Projects(){
     const [cardHover, setCardHover] = useState([false, false, false, false, false, false])
     const dispatch = useDispatch()
+
+    useEffect(()=>{
+        if(location.search){
+            handleQueryEvt()
+        }
+    }, [])
+
+    const handleQueryEvt = () => {
+        const element = location.search.slice(1);
+
+        dispatch(modalActions.changeState({
+            open: true,
+            kind: element
+        }))
+    }
 
     const updateItem = (index, newValue) => {
         setCardHover(prev => {

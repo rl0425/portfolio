@@ -45,6 +45,7 @@ function TitleSec(){
                     <div className={classes.rbtBody}>
                         <span><label>Blog.</label> <a href={"https://velog.io/@rl0425"}>https://velog.io/@rl0425</a></span>
                         <span><label>GitHub.</label> <a href={"https://github.com/rl0425"}>https://github.com/rl0425</a></span>
+                        <span><label>PDF.</label> <a href={"https://portfolio-gichan.s3.ap-northeast-2.amazonaws.com/pdf+(6).pdf"}>portfolio.pdf</a></span>
                     </div>
                 </div>
                 {/*<img src={"/images/profile/black6.png"}/>*/}
