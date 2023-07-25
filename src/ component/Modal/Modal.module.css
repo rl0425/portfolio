@@ -1,3 +1,26 @@
+*{
+    font-family: "Pretendard";
+}
+
+*:link {
+    color: white !important;
+
+}
+
+*:-webkit-any-link {
+    color: white !important;
+}
+
+*:visited {
+    color: white !important;
+}
+*:hover {
+    color: white !important;
+}
+*:active {
+    color: white !important;
+}
+
 .background{
     position: fixed;
     top: 0;
@@ -27,11 +50,11 @@
     width: 60%;
     min-width: 850px;
     height: 90%;
-    border-radius: 12px;
-    padding: 60px 0 60px 60px;
+    border-radius: 4px;
+    padding: 40px 0 60px 60px;
     box-sizing: border-box;
     overflow: hidden;
-    background: #252525;
+    background: #242323;
 }
 
 .head{
@@ -290,26 +313,13 @@
     line-height: 28px;
 }
 
-
-*{
-    font-family: "Pretendard";
+.thumbnail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
-*:link {
-    color: white !important;
-
-}
-
-*:-webkit-any-link {
-    color: white !important;
-}
-
-*:visited {
-    color: white !important;
-}
-*:hover {
-    color: white !important;
-}
-*:active {
-    color: white !important;
+.thumbnail > img{
+    /*width: 50%;*/
 }

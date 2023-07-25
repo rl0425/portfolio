@@ -8,6 +8,7 @@ function Projects(){
     const dispatch = useDispatch()
 
     useEffect(()=>{
+        console.log("locaton = ", location)
         if(location.search){
             handleQueryEvt()
         }
@@ -15,6 +16,8 @@ function Projects(){
 
     const handleQueryEvt = () => {
         const element = location.search.slice(1);
+
+        console.log("element = ", element)
 
         dispatch(modalActions.changeState({
             open: true,
