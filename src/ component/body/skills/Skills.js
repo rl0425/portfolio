@@ -14,7 +14,7 @@ function Skills(){
                 <div><span>TECH</span></div>
             </div>
             <div className={ex ? classes.smallBox : classes.smallUnBox}>
-                <div className={classes.frontSpan}><span>FrontEnd & Environment</span></div>
+                <div className={classes.frontSpan}><span>Frontend & Environment</span></div>
                 <div className={classes.frontImg}>
                     <img style={{width:"30px"}} src={"images/skills/html2.png"} />
                     <img style={{width:"30px"}} src={"images/skills/css2.png"} />
