@@ -1,10 +1,10 @@
-import About from "./about/About";
-import Skills from "./skills/Skills";
-import Projects from "./projects/Projects";
-import Career from "./career/Career";
-import Sites from "./sites/Sites";
+import About from "./About/About";
+import Skills from "./Skills/Skills";
+import Projects from "./Projects/Projects";
+import Career from "./Career/Career";
+import Sites from "./Sites/Sites";
 import classes from "./Body.module.css"
-import TitleSec from "./title/TitleSec";
+import TitleSec from "./Title/TitleSec";
 import {useEffect} from "react";
 import {modalActions} from "../../store/modalSlice";
 
