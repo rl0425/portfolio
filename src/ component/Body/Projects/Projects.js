@@ -15,7 +15,6 @@ function Projects(){
 
     const handleQueryEvt = () => {
         const element = location.search.slice(1);
-
         dispatch(modalActions.changeState({
             open: true,
             kind: element

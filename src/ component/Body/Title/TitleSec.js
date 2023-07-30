@@ -1,27 +1,7 @@
-
 import classes from "./TitleSec.module.css"
 import {useState} from "react";
 
 function TitleSec(){
-    const [ex, setEx] = useState(false)
-    const [ex2, setEx2] = useState(false)
-    const [ex3, setEx3] = useState(false)
-    const [ex4, setEx4] = useState(false)
-
-    setTimeout(() =>{
-        setEx(true)
-    }, 500)
-    setTimeout(() =>{
-        setEx3(true)
-    }, 650)
-    setTimeout(() =>{
-        setEx2(true)
-    }, 650)
-
-    setTimeout(() =>{
-        setEx4(true)
-    }, 200)
-
     return (
         <div className={classes.box}>
             <div className={classes.leftBox}>
@@ -45,7 +25,7 @@ function TitleSec(){
                     <div className={classes.rbtBody}>
                         <span><label>Blog.</label> <a href={"https://velog.io/@rl0425"}>https://velog.io/@rl0425</a></span>
                         <span><label>GitHub.</label> <a href={"https://github.com/rl0425"}>https://github.com/rl0425</a></span>
-                        <span><label>PDF.</label> <a href={"https://portfolio-gichan.s3.ap-northeast-2.amazonaws.com/pdf+(6).pdf"}>portfolio.pdf</a></span>
+                        <span><label>PDF.</label> <a href={"https://portfolio-gichan.s3.ap-northeast-2.amazonaws.com/pdf%2B(6).pdf"}>portfolio.pdf</a></span>
                     </div>
                 </div>
                 {/*<img src={"/images/profile/black6.png"}/>*/}

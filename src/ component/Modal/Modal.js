@@ -121,9 +121,11 @@ function Modal(){
                                 현업에서 처음으로 참여한 큰 프로젝트에서는 많은 실수와 오류가 있었습니다. 이를 통해 동료들과의 협업과 의사소통의 중요성을 다시 한번 깨달았으며, <br/> 개발 실력의 부족한 부분을 인지하게 되었습니다.
                                 프로젝트 완성을 위해 충분한 공수기간이 주어지지 않았지만, 열심히 노력하여 다양한 기능 구현 요구사항을 해결하였고, 결국 제 페이지와 코드가 회사의 메인 프로그램에 추가되는 결과를 얻을 수 있었습니다.
                             </label>
+                            <br/>
                             <div className={classes.ganttImgSet}>
                                 <img src={"/images/projects/move.gif"}/>
                                 <img src={"/images/projects/view.gif"}/>
+                                <br/>
                             </div>
                         </div>
                     </div>
@@ -153,7 +155,7 @@ function Modal(){
                 name: "FOTSCORE",
                 summary: (
                     <div>
-                        <img style={{width:"100%", marginBottom:"12px"}}src={"/images/projects/fot1-1.png"}/>
+                        <img style={{width:"100%", marginBottom:"68px"}}src={"/images/projects/fot1-1.png"}/>
                         <span>
                             평소 해외 축구를 즐겨보는데, 주말 새벽에는 경기를 보기 어렵기 때문에 경기 결과와 영상을 찾아보곤 했습니다. <p/>
                             그러나 이 과정이 매번 귀찮고 번거로웠습니다. 그래서 라이트한 해외축구 팬들을 위한 앱을 만들면 좋겠다는 아이디어가 떠올랐고, <p/>
@@ -241,13 +243,18 @@ function Modal(){
 
         if(type === "qdrop"){
             setData({
+                thumbnail: (
+                    <div className={classes.thumbnail}>
+                        <img src={"/images/projects/qdropThumbnail.png"} style={{width:"50%"}}/>
+                    </div>
+                ),
                 url: (
                     <span><a href={"https://play.google.com/store/apps/details?id=com.gichan.footballScore"}>Play Store</a></span>
                 ),
                 date: (
                     <span>2023.03.01 - 2023.05.11</span>
                 ),
-                name: "Q'drop",
+                name: "Q'Drop",
                 summary: (
                     <div>
                         <span>
@@ -725,27 +732,36 @@ function Modal(){
                 </div>
                 <div className={classes.body}>
                     <div className={classes.category}>
-                        <div className={classes.categoryTitle}><span>Project Duration</span></div>
+                        <div className={classes.categoryTitle}><span>PROJECT DURATION</span></div>
+                        {/*<div className={classes.categoryTitle}><span>Project Duration</span></div>*/}
                         <div className={classes.categoryData}>{data.date}</div>
                     </div>
+                    {data.thumbnail ? <div className={classes.category}>
+                        {data.thumbnail}
+                    </div> : ""}
                     <div className={classes.category}>
-                        <div className={classes.categoryTitle}><span>Background</span></div>
+                        <div className={classes.categoryTitle}><span>BACKGROUND</span></div>
+                        {/*<div className={classes.categoryTitle}><span>Background</span></div>*/}
                         <div className={classes.categoryData}>{data.summary}</div>
                     </div>
                     <div className={classes.category}>
-                        <div className={classes.categoryTitle}><span>Develop Process</span></div>
+                        <div className={classes.categoryTitle}><span>DEVELOP PROCESS</span></div>
+                        {/*<div className={classes.categoryTitle}><span>Develop Process</span></div>*/}
                         <div className={classes.categoryData}>{data.process}</div>
                     </div>
                     {data.complete ? <div className={classes.category}>
-                        <div className={classes.categoryTitle}><span>Summary</span></div>
+                        <div className={classes.categoryTitle}><span>SUMMARY</span></div>
+                        {/*<div className={classes.categoryTitle}><span>Summary</span></div>*/}
                         <div className={classes.categoryData}>{data.complete}</div>
                     </div> : ""}
                     {data.output ? <div className={classes.category}>
-                        <div className={classes.categoryTitle}><span>Output</span></div>
+                        <div className={classes.categoryTitle}><span>OUTPUT</span></div>
+                        {/*<div className={classes.categoryTitle}><span>Output</span></div>*/}
                         <div className={classes.categoryData}>{data.output}</div>
                     </div> : ""}
                     <div className={classes.category}>
-                        <div className={classes.categoryTitle}><span>Technology Stack(s)</span></div>
+                        <div className={classes.categoryTitle}><span>TECHNOLOGY STACK(S)</span></div>
+                        {/*<div className={classes.categoryTitle}><span>Technology Stack(s)</span></div>*/}
                         <div className={classes.categoryData}>{data.tech}</div>
                     </div>
                     {data.url ? <div className={classes.category}>
