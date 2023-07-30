@@ -13,9 +13,9 @@ function Body(){
         <div className={classes.box} style={{position:"relative", marginBottom:"80px"}}>
             <TitleSec />
             <About />
+            <Skills />
             <Career />
             <Projects />
-            <Skills />
             <Sites />
         </div>
     )
