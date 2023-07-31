@@ -30,24 +30,24 @@ function Title(){
                     </div>
                     <div className={classes.explainBox}>
                         <div className={ex ? classes.nonDisplay : classes.displayBox}>
-                            <span>사용자와 가장 가까운 개발자가 되고싶은</span>
+                            <p>사용자와 가장 가까운 개발자가 되고싶은</p>
                         </div>
                         <div className={ex2 ? classes.nonDisplay : `${classes.highlight} ${classes.displayBox}`}>
-                            <span style={{color:"rgb(15, 195, 250"}}>프론트엔드 웹 개발자 박기찬</span><label>입니다.</label>
+                            <p style={{color:"rgb(15, 195, 250"}}>프론트엔드 웹 개발자 박기찬</p><label>입니다.</label>
                         </div>
                     </div>
                 </div>
                 <div className={ex4 ? classes.kindBox : classes.nonKindBox}>
                     <div className={classes.kindExplain}>
-                        <span style={{fontWeight:"bold"}}>️📪 주소지</span>
+                        <p style={{fontWeight:"bold"}}>️📪 주소지</p>
                         <label>대구 북구</label>
                     </div>
                     <div className={classes.kindExplain} style={{paddingLeft:"60px", minWidth:"167px"}}>
-                        <span style={{fontWeight:"bold"}}>✉️ Email</span>
+                        <p style={{fontWeight:"bold"}}>✉️ Email</p>
                         <label>qkrrlcks45@daum.net</label>
                     </div>
                     <div className={classes.kindExplain} style={{paddingLeft:"60px", minWidth:"120px", borderRight:"none"}}>
-                        <span style={{fontWeight:"bold"}}>📱 연락처</span>
+                        <p style={{fontWeight:"bold"}}>📱 연락처</p>
                         <label>010-3099-4181</label>
                     </div>
                 </div>

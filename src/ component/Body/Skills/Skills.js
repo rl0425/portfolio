@@ -11,10 +11,10 @@ function Skills(){
     return (
         <div className={classes.box}>
             <div className={classes.title}>
-                <div><span>TECH</span></div>
+                <div><p>TECH</p></div>
             </div>
             <div className={ex ? classes.smallBox : classes.smallUnBox}>
-                <div className={classes.frontSpan}><span>Frontend & Environment</span></div>
+                <div className={classes.frontSpan}><p>Frontend & Environment</p></div>
                 <div className={classes.frontImg}>
                     <img style={{width:"30px"}} src={"images/skills/html2.png"} />
                     <img style={{width:"30px"}} src={"images/skills/css2.png"} />
@@ -28,7 +28,7 @@ function Skills(){
                 </div>
             </div>
             <div className={ex ? classes.smallBox : classes.smallUnBox}>
-                <div className={classes.versionSpan}><span>Version Control & Communication</span></div>
+                <div className={classes.versionSpan}><p>Version Control & Communication</p></div>
                 <div className={classes.versionImg}>
                     <img style={{width:"50px"}} src={"images/skills/git.png"} />
                     <img style={{width:"80px"}} src={"images/skills/github.png"} />

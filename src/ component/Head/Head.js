@@ -3,13 +3,13 @@ function Head(){
     return (
         <div className={classes.box}>
             <div className={classes.leftBox}>
-                <span>PGC's Portfolio</span>
+                <p>PGC's Portfolio</p>
             </div>
             {/*<div className={classes.rightBox}>*/}
-            {/*    <div><span>Home</span></div>*/}
-            {/*    <div><span>Skill</span></div>*/}
-            {/*    <div><span>Project</span></div>*/}
-            {/*    <div><span>Career</span></div>*/}
+            {/*    <div><p>Home</p></div>*/}
+            {/*    <div><p>Skill</p></div>*/}
+            {/*    <div><p>Project</p></div>*/}
+            {/*    <div><p>Career</p></div>*/}
             {/*</div>*/}
         </div>
     )

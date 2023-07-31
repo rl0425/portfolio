@@ -75,7 +75,7 @@
     transition: all 0.45s ease;
 }
 
-.cardBackground > span{
+.cardBackground > p{
     color: #ffffff;
     padding-left: 36px;
 }
@@ -131,7 +131,7 @@
     transition: all 0.45s ease;
 }
 
-.fotcardBackground > span{
+.fotcardBackground > p{
     color: #ffffff;
     padding-left: 16px;
 }
@@ -265,7 +265,7 @@
     transition: all 0.45s ease;
 }
 
-.qdropBackground > span{
+.qdropBackground > p{
     color: #ffffff;
     padding-left: 16px;
 }

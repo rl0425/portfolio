@@ -4,7 +4,7 @@ function Career(){
     return (
         <div className={classes.box}>
             <div className={classes.head}>
-                <span>CAREER</span>
+                <p>CAREER</p>
             </div>
             <div className={classes.body}>
                 <div className={classes.left}>
@@ -13,14 +13,14 @@ function Career(){
                 <div className={classes.right}>
                     <div className={classes.spanBox}>
                         <div style={{display:"flex", flexDirection:"column", gap:"12px"}}>
-                            <span style={{fontSize:"18px"}}>(주)헤븐트리</span>
-                            <span style={{color: "#dadada"}}>프로젝트 포트폴리오 관리(PPM) 서비스의 FE 개발자로서 신규 프로젝트 개발 및 유치 보수를 담당했습니다. </span>
+                            <p style={{fontSize:"18px"}}>(주)헤븐트리</p>
+                            <p style={{color: "#dadada"}}>프로젝트 포트폴리오 관리(PPM) 서비스의 FE 개발자로서 신규 프로젝트 개발 및 유치 보수를 담당했습니다. </p>
                         </div>
                     </div>
                     <div className={classes.spanBox}>
                         <div>
                             <div className={classes.career}>
-                                <span style={{color:"#ababab"}} >2021년 7월 ~ 2022년 12월 : 프론트엔드 개발</span>
+                                <p style={{color:"#ababab"}} >2021년 7월 ~ 2022년 12월 : 프론트엔드 개발</p>
                                 {/*<div className={classes.careerImg}>*/}
                                 {/*    <img style={{width:"40px"}} src={"images/skills/html.png"} />*/}
                                 {/*    <img style={{width:"35px"}} src={"images/skills/css.png"} />*/}

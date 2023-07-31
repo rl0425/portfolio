@@ -23,7 +23,7 @@
     gap: 24px;
 }
 
-.highlight > span{
+.highlight > p{
     color: #0FC3FA;
 }
 
@@ -57,7 +57,7 @@
     gap: 20px;
 }
 
-.kindExplain > span{
+.kindExplain > p{
     font-size: 14px;
     font-weight: bold;
     color: #c0bebe;
@@ -122,7 +122,7 @@
     gap: 12px;
 }
 
-.rbtTitle > span{
+.rbtTitle > p{
     color: #0098fe;
     font-weight: bold;
 }

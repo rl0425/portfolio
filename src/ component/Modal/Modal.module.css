@@ -156,7 +156,7 @@
     gap: 24px;
 }
 
-.hardSpan > span{
+.hardSpan > p{
     font-size: 24px;
     font-weight: bold;
     /*padding-left: 24px;*/
@@ -233,7 +233,7 @@
     gap: 16px;
 }
 
-.middleImgSet > span{
+.middleImgSet > p{
     font-size: 12px;
 }
 
@@ -252,7 +252,7 @@
     gap: 24px;
 }
 
-.middleImgSet > span{
+.middleImgSet > p{
     font-size: 12px;
 }
 

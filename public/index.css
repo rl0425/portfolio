@@ -3,3 +3,7 @@ body{
     /*margin: 0 15% 0 15%;*/
     background: #242323;
 }
+
+p{
+    margin: 0 !important;
+}
